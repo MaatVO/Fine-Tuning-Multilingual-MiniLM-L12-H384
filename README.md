@@ -5,7 +5,7 @@
 
 ## Overview
 
-This repository contains code for fine-tuning the Multilingual-MiniLM-L12-H384 language model from Microsoft, based on BART, for lie detection using transfer learning and LORA (Language Over-Representation Analysis). The pre-trained model can be found on the [Hugging Face Model Hub](https://huggingface.co/microsoft/Multilingual-MiniLM-L12-H384).
+This repository contains code for fine-tuning the Multilingual-MiniLM-L12-H384 language model from Microsoft, based on BART, for lie detection using transfer learning and LORA (Low-Rank Adaptation of Large Language Models). The pre-trained model can be found on the [Hugging Face Model Hub](https://huggingface.co/microsoft/Multilingual-MiniLM-L12-H384).
 
 ## Table of Contents
 
@@ -27,3 +27,5 @@ To set up the environment, you can use the following commands:
 git clone https://github.com/MaatVO/Fine-Tuning-Multilingual-MiniLM-L12-H384.git
 cd Fine-Tuning-Multilingual-MiniLM-L12-H384
 pip install -r requirements.txt
+
+#WIP
