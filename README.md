@@ -27,5 +27,5 @@ To set up the environment, you can use the following commands:
 git clone https://github.com/MaatVO/Fine-Tuning-Multilingual-MiniLM-L12-H384.git
 cd Fine-Tuning-Multilingual-MiniLM-L12-H384
 pip install -r requirements.txt
-
-#WIP
+```
+# WIP
