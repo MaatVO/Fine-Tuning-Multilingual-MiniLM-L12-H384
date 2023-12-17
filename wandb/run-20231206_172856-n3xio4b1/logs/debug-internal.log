@@ -1,0 +1,257 @@
+2023-12-06 17:28:56,265 INFO    StreamThr :2972 [internal.py:wandb_internal():86] W&B internal server running at pid: 2972, started at: 2023-12-06 17:28:56.265215
+2023-12-06 17:28:56,265 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: status
+2023-12-06 17:28:56,283 INFO    WriterThread:2972 [datastore.py:open_for_write():85] open: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\run-n3xio4b1.wandb
+2023-12-06 17:28:56,284 DEBUG   SenderThread:2972 [sender.py:send():380] send: header
+2023-12-06 17:28:56,315 DEBUG   SenderThread:2972 [sender.py:send():380] send: run
+2023-12-06 17:28:57,331 INFO    SenderThread:2972 [dir_watcher.py:__init__():211] watching files in: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files
+2023-12-06 17:28:57,331 INFO    SenderThread:2972 [sender.py:_start_run_threads():1124] run started: n3xio4b1 with start time 1701880136.265215
+2023-12-06 17:28:57,331 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: check_version
+2023-12-06 17:28:57,331 DEBUG   SenderThread:2972 [sender.py:send_request():407] send_request: check_version
+2023-12-06 17:28:58,108 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: run_start
+2023-12-06 17:28:58,139 DEBUG   HandlerThread:2972 [system_info.py:__init__():32] System info init
+2023-12-06 17:28:58,139 DEBUG   HandlerThread:2972 [system_info.py:__init__():47] System info init done
+2023-12-06 17:28:58,139 INFO    HandlerThread:2972 [system_monitor.py:start():194] Starting system monitor
+2023-12-06 17:28:58,140 INFO    SystemMonitor:2972 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-12-06 17:28:58,140 INFO    HandlerThread:2972 [system_monitor.py:probe():214] Collecting system info
+2023-12-06 17:28:58,140 INFO    SystemMonitor:2972 [interfaces.py:start():190] Started cpu monitoring
+2023-12-06 17:28:58,140 INFO    SystemMonitor:2972 [interfaces.py:start():190] Started disk monitoring
+2023-12-06 17:28:58,140 INFO    SystemMonitor:2972 [interfaces.py:start():190] Started gpu monitoring
+2023-12-06 17:28:58,150 INFO    SystemMonitor:2972 [interfaces.py:start():190] Started memory monitoring
+2023-12-06 17:28:58,154 INFO    SystemMonitor:2972 [interfaces.py:start():190] Started network monitoring
+2023-12-06 17:28:58,154 DEBUG   HandlerThread:2972 [system_info.py:probe():196] Probing system
+2023-12-06 17:28:58,154 DEBUG   HandlerThread:2972 [system_info.py:_probe_git():181] Probing git
+2023-12-06 17:28:58,201 DEBUG   HandlerThread:2972 [system_info.py:_probe_git():189] Probing git done
+2023-12-06 17:28:58,201 DEBUG   HandlerThread:2972 [system_info.py:probe():244] Probing system done
+2023-12-06 17:28:58,201 DEBUG   HandlerThread:2972 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.11.6', 'heartbeatAt': '2023-12-06T16:28:58.154477', 'startedAt': '2023-12-06T16:28:56.265215', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'c:\\Users\\matti\\Documents\\GitHub\\Fine_tuning_llm_project\\main.py', 'codePathLocal': 'main.py', 'codePath': 'main.py', 'git': {'remote': 'https://github.com/MaatVO/Fine_tuning_llm_project.git', 'commit': 'ea31133186b21d5f6e75d5b4bbd4796ecfd609ca'}, 'email': '102108918+MaatVO@users.noreply.github.com', 'root': 'C:/Users/matti/Documents/GitHub/Fine_tuning_llm_project', 'host': 'Matlaptop', 'username': 'matti', 'executable': 'c:\\Users\\matti\\Documents\\GitHub\\Fine_tuning_llm_project\\.env\\Scripts\\python.exe', 'cpu_count': 14, 'cpu_count_logical': 20, 'cpu_freq': {'current': 2300.0, 'min': 0.0, 'max': 2300.0}, 'cpu_freq_per_core': [{'current': 2300.0, 'min': 0.0, 'max': 2300.0}], 'disk': {'/': {'total': 290.52920150756836, 'used': 176.716796875}}, 'gpu': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'memory_total': 4294967296}], 'memory': {'total': 15.730949401855469}}
+2023-12-06 17:28:58,201 INFO    HandlerThread:2972 [system_monitor.py:probe():224] Finished collecting system info
+2023-12-06 17:28:58,201 INFO    HandlerThread:2972 [system_monitor.py:probe():227] Publishing system info
+2023-12-06 17:28:58,201 DEBUG   HandlerThread:2972 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-12-06 17:28:58,201 DEBUG   HandlerThread:2972 [system_info.py:_save_pip():68] Saving pip packages done
+2023-12-06 17:28:58,201 INFO    HandlerThread:2972 [system_monitor.py:probe():229] Finished publishing system info
+2023-12-06 17:28:58,217 DEBUG   SenderThread:2972 [sender.py:send():380] send: files
+2023-12-06 17:28:58,217 INFO    SenderThread:2972 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2023-12-06 17:28:58,217 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-06 17:28:58,217 DEBUG   SenderThread:2972 [sender.py:send_request():407] send_request: stop_status
+2023-12-06 17:28:58,217 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-06 17:28:58,343 INFO    Thread-16 :2972 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files\requirements.txt
+2023-12-06 17:28:58,343 INFO    Thread-16 :2972 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files\wandb-metadata.json
+2023-12-06 17:28:58,453 DEBUG   SenderThread:2972 [sender.py:send():380] send: telemetry
+2023-12-06 17:28:58,453 DEBUG   SenderThread:2972 [sender.py:send():380] send: config
+2023-12-06 17:28:58,453 DEBUG   SenderThread:2972 [sender.py:send():380] send: metric
+2023-12-06 17:28:58,453 DEBUG   SenderThread:2972 [sender.py:send():380] send: telemetry
+2023-12-06 17:28:58,453 DEBUG   SenderThread:2972 [sender.py:send():380] send: metric
+2023-12-06 17:28:58,453 WARNING SenderThread:2972 [sender.py:send_metric():1331] Seen metric with glob (shouldn't happen)
+2023-12-06 17:28:58,453 DEBUG   SenderThread:2972 [sender.py:send():380] send: telemetry
+2023-12-06 17:28:59,346 INFO    Thread-16 :2972 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files\output.log
+2023-12-06 17:29:00,286 INFO    wandb-upload_0:2972 [upload_job.py:push():131] Uploaded file C:\Users\matti\AppData\Local\Temp\tmpg6c6e_oqwandb\dlfx0wvx-wandb-metadata.json
+2023-12-06 17:29:01,299 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:29:01,355 INFO    Thread-16 :2972 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files\output.log
+2023-12-06 17:29:03,361 INFO    Thread-16 :2972 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files\output.log
+2023-12-06 17:29:05,367 INFO    Thread-16 :2972 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files\output.log
+2023-12-06 17:29:06,536 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:29:07,382 INFO    Thread-16 :2972 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files\output.log
+2023-12-06 17:29:09,389 INFO    Thread-16 :2972 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files\output.log
+2023-12-06 17:29:11,397 INFO    Thread-16 :2972 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files\output.log
+2023-12-06 17:29:11,742 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:29:11,759 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-06 17:29:11,764 DEBUG   SenderThread:2972 [sender.py:send():380] send: metric
+2023-12-06 17:29:11,765 DEBUG   SenderThread:2972 [sender.py:send():380] send: metric
+2023-12-06 17:29:11,767 DEBUG   SenderThread:2972 [sender.py:send():380] send: metric
+2023-12-06 17:29:11,767 DEBUG   SenderThread:2972 [sender.py:send():380] send: metric
+2023-12-06 17:29:11,767 DEBUG   SenderThread:2972 [sender.py:send():380] send: metric
+2023-12-06 17:29:11,767 DEBUG   SenderThread:2972 [sender.py:send():380] send: metric
+2023-12-06 17:29:11,768 DEBUG   SenderThread:2972 [sender.py:send():380] send: history
+2023-12-06 17:29:11,768 DEBUG   SenderThread:2972 [sender.py:send_request():407] send_request: summary_record
+2023-12-06 17:29:11,769 INFO    SenderThread:2972 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-06 17:29:12,405 INFO    Thread-16 :2972 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files\wandb-summary.json
+2023-12-06 17:29:13,231 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-06 17:29:13,231 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-06 17:29:13,231 DEBUG   SenderThread:2972 [sender.py:send_request():407] send_request: stop_status
+2023-12-06 17:29:13,420 INFO    Thread-16 :2972 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files\output.log
+2023-12-06 17:29:14,423 INFO    Thread-16 :2972 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files\output.log
+2023-12-06 17:29:16,979 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:29:17,453 INFO    Thread-16 :2972 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files\output.log
+2023-12-06 17:29:19,462 INFO    Thread-16 :2972 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files\output.log
+2023-12-06 17:29:21,472 INFO    Thread-16 :2972 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files\output.log
+2023-12-06 17:29:22,477 INFO    Thread-16 :2972 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files\output.log
+2023-12-06 17:29:22,962 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:29:26,400 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-06 17:29:26,400 DEBUG   SenderThread:2972 [sender.py:send():380] send: history
+2023-12-06 17:29:26,400 DEBUG   SenderThread:2972 [sender.py:send_request():407] send_request: summary_record
+2023-12-06 17:29:26,400 INFO    SenderThread:2972 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-06 17:29:26,503 INFO    Thread-16 :2972 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files\wandb-summary.json
+2023-12-06 17:29:26,503 INFO    Thread-16 :2972 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files\output.log
+2023-12-06 17:29:27,909 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-06 17:29:27,909 DEBUG   SenderThread:2972 [sender.py:send():380] send: metric
+2023-12-06 17:29:27,909 DEBUG   SenderThread:2972 [sender.py:send():380] send: metric
+2023-12-06 17:29:27,909 DEBUG   SenderThread:2972 [sender.py:send():380] send: metric
+2023-12-06 17:29:27,909 DEBUG   SenderThread:2972 [sender.py:send():380] send: metric
+2023-12-06 17:29:27,909 DEBUG   SenderThread:2972 [sender.py:send():380] send: metric
+2023-12-06 17:29:27,909 DEBUG   SenderThread:2972 [sender.py:send():380] send: history
+2023-12-06 17:29:27,909 DEBUG   SenderThread:2972 [sender.py:send_request():407] send_request: summary_record
+2023-12-06 17:29:27,909 INFO    SenderThread:2972 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-06 17:29:27,909 DEBUG   SenderThread:2972 [sender.py:send():380] send: exit
+2023-12-06 17:29:27,909 INFO    SenderThread:2972 [sender.py:send_exit():585] handling exit code: 0
+2023-12-06 17:29:27,909 INFO    SenderThread:2972 [sender.py:send_exit():587] handling runtime: 29
+2023-12-06 17:29:27,909 INFO    SenderThread:2972 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-06 17:29:27,909 INFO    SenderThread:2972 [sender.py:send_exit():593] send defer
+2023-12-06 17:29:27,909 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: defer
+2023-12-06 17:29:27,909 INFO    HandlerThread:2972 [handler.py:handle_request_defer():172] handle defer: 0
+2023-12-06 17:29:27,909 DEBUG   SenderThread:2972 [sender.py:send_request():407] send_request: defer
+2023-12-06 17:29:27,909 INFO    SenderThread:2972 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-12-06 17:29:27,909 INFO    SenderThread:2972 [sender.py:transition_state():613] send defer: 1
+2023-12-06 17:29:27,909 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: defer
+2023-12-06 17:29:27,909 INFO    HandlerThread:2972 [handler.py:handle_request_defer():172] handle defer: 1
+2023-12-06 17:29:27,909 DEBUG   SenderThread:2972 [sender.py:send_request():407] send_request: defer
+2023-12-06 17:29:27,909 INFO    SenderThread:2972 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-12-06 17:29:27,909 INFO    SenderThread:2972 [sender.py:transition_state():613] send defer: 2
+2023-12-06 17:29:27,909 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: defer
+2023-12-06 17:29:27,909 INFO    HandlerThread:2972 [handler.py:handle_request_defer():172] handle defer: 2
+2023-12-06 17:29:27,909 INFO    HandlerThread:2972 [system_monitor.py:finish():203] Stopping system monitor
+2023-12-06 17:29:27,909 DEBUG   SystemMonitor:2972 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-12-06 17:29:27,909 DEBUG   SystemMonitor:2972 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-12-06 17:29:27,909 DEBUG   SystemMonitor:2972 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-12-06 17:29:27,924 INFO    HandlerThread:2972 [interfaces.py:finish():202] Joined cpu monitor
+2023-12-06 17:29:27,924 INFO    HandlerThread:2972 [interfaces.py:finish():202] Joined disk monitor
+2023-12-06 17:29:27,965 INFO    HandlerThread:2972 [interfaces.py:finish():202] Joined gpu monitor
+2023-12-06 17:29:27,965 INFO    HandlerThread:2972 [interfaces.py:finish():202] Joined memory monitor
+2023-12-06 17:29:27,965 INFO    HandlerThread:2972 [interfaces.py:finish():202] Joined network monitor
+2023-12-06 17:29:27,966 DEBUG   SenderThread:2972 [sender.py:send_request():407] send_request: defer
+2023-12-06 17:29:27,966 INFO    SenderThread:2972 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-12-06 17:29:27,966 INFO    SenderThread:2972 [sender.py:transition_state():613] send defer: 3
+2023-12-06 17:29:27,968 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: defer
+2023-12-06 17:29:27,968 INFO    HandlerThread:2972 [handler.py:handle_request_defer():172] handle defer: 3
+2023-12-06 17:29:27,968 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:29:28,523 INFO    Thread-16 :2972 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files\wandb-summary.json
+2023-12-06 17:29:28,523 INFO    Thread-16 :2972 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files\output.log
+2023-12-06 17:29:28,916 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-06 17:29:30,538 INFO    Thread-16 :2972 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files\output.log
+2023-12-06 17:29:31,655 DEBUG   SenderThread:2972 [sender.py:send():380] send: stats
+2023-12-06 17:29:31,655 DEBUG   SenderThread:2972 [sender.py:send_request():407] send_request: defer
+2023-12-06 17:29:31,655 INFO    SenderThread:2972 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-12-06 17:29:31,655 INFO    SenderThread:2972 [sender.py:transition_state():613] send defer: 4
+2023-12-06 17:29:31,655 DEBUG   SenderThread:2972 [sender.py:send_request():407] send_request: poll_exit
+2023-12-06 17:29:31,655 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: defer
+2023-12-06 17:29:31,655 INFO    HandlerThread:2972 [handler.py:handle_request_defer():172] handle defer: 4
+2023-12-06 17:29:31,671 DEBUG   SenderThread:2972 [sender.py:send_request():407] send_request: defer
+2023-12-06 17:29:31,671 INFO    SenderThread:2972 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-12-06 17:29:31,671 INFO    SenderThread:2972 [sender.py:transition_state():613] send defer: 5
+2023-12-06 17:29:31,671 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: defer
+2023-12-06 17:29:31,671 INFO    HandlerThread:2972 [handler.py:handle_request_defer():172] handle defer: 5
+2023-12-06 17:29:31,671 DEBUG   SenderThread:2972 [sender.py:send():380] send: summary
+2023-12-06 17:29:31,671 INFO    SenderThread:2972 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-06 17:29:31,671 DEBUG   SenderThread:2972 [sender.py:send_request():407] send_request: defer
+2023-12-06 17:29:31,671 INFO    SenderThread:2972 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-12-06 17:29:31,671 INFO    SenderThread:2972 [sender.py:transition_state():613] send defer: 6
+2023-12-06 17:29:31,671 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: defer
+2023-12-06 17:29:31,671 INFO    HandlerThread:2972 [handler.py:handle_request_defer():172] handle defer: 6
+2023-12-06 17:29:31,671 DEBUG   SenderThread:2972 [sender.py:send_request():407] send_request: defer
+2023-12-06 17:29:31,671 INFO    SenderThread:2972 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-12-06 17:29:31,671 INFO    SenderThread:2972 [sender.py:transition_state():613] send defer: 7
+2023-12-06 17:29:31,671 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:29:31,671 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: defer
+2023-12-06 17:29:31,671 INFO    HandlerThread:2972 [handler.py:handle_request_defer():172] handle defer: 7
+2023-12-06 17:29:31,671 DEBUG   SenderThread:2972 [sender.py:send_request():407] send_request: defer
+2023-12-06 17:29:31,671 INFO    SenderThread:2972 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-12-06 17:29:32,552 INFO    Thread-16 :2972 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files\wandb-summary.json
+2023-12-06 17:29:32,552 INFO    Thread-16 :2972 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files\config.yaml
+2023-12-06 17:29:33,782 INFO    SenderThread:2972 [sender.py:transition_state():613] send defer: 8
+2023-12-06 17:29:33,782 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: defer
+2023-12-06 17:29:33,782 INFO    HandlerThread:2972 [handler.py:handle_request_defer():172] handle defer: 8
+2023-12-06 17:29:33,782 DEBUG   SenderThread:2972 [sender.py:send_request():407] send_request: defer
+2023-12-06 17:29:33,782 INFO    SenderThread:2972 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-12-06 17:29:33,782 INFO    SenderThread:2972 [job_builder.py:build():298] Attempting to build job artifact
+2023-12-06 17:29:33,782 INFO    SenderThread:2972 [job_builder.py:_get_source_type():428] is repo sourced job
+2023-12-06 17:29:33,872 INFO    SenderThread:2972 [job_builder.py:build():404] adding wandb-job metadata file
+2023-12-06 17:29:33,888 INFO    SenderThread:2972 [sender.py:transition_state():613] send defer: 9
+2023-12-06 17:29:33,888 DEBUG   SenderThread:2972 [sender.py:send():380] send: artifact
+2023-12-06 17:29:33,888 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: defer
+2023-12-06 17:29:33,888 INFO    HandlerThread:2972 [handler.py:handle_request_defer():172] handle defer: 9
+2023-12-06 17:29:33,950 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-06 17:29:34,563 INFO    Thread-16 :2972 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files\output.log
+2023-12-06 17:29:36,353 INFO    wandb-upload_0:2972 [upload_job.py:push():89] Uploaded file C:\Users\matti\AppData\Local\wandb\wandb\artifacts\staging\tmpl7iobcjk
+2023-12-06 17:29:36,353 INFO    wandb-upload_1:2972 [upload_job.py:push():89] Uploaded file C:\Users\matti\AppData\Local\wandb\wandb\artifacts\staging\tmpt2tc2bed
+2023-12-06 17:29:38,003 INFO    SenderThread:2972 [sender.py:send_artifact():1458] sent artifact job-https___github.com_MaatVO_Fine_tuning_llm_project.git_main.py - {'id': 'QXJ0aWZhY3Q6NjU5MjU4Nzcz', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEyMTM5MDQ5OQ==', 'latestArtifact': None}}
+2023-12-06 17:29:38,003 DEBUG   SenderThread:2972 [sender.py:send_request():407] send_request: defer
+2023-12-06 17:29:38,003 INFO    SenderThread:2972 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-12-06 17:29:38,003 INFO    SenderThread:2972 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-12-06 17:29:38,003 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:29:38,584 INFO    SenderThread:2972 [dir_watcher.py:finish():388] scan: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files
+2023-12-06 17:29:38,584 INFO    SenderThread:2972 [dir_watcher.py:finish():402] scan save: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files\config.yaml config.yaml
+2023-12-06 17:29:38,584 INFO    SenderThread:2972 [dir_watcher.py:finish():402] scan save: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files\output.log output.log
+2023-12-06 17:29:38,584 INFO    SenderThread:2972 [dir_watcher.py:finish():402] scan save: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files\requirements.txt requirements.txt
+2023-12-06 17:29:38,584 INFO    SenderThread:2972 [dir_watcher.py:finish():402] scan save: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files\wandb-metadata.json wandb-metadata.json
+2023-12-06 17:29:38,584 INFO    SenderThread:2972 [dir_watcher.py:finish():402] scan save: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files\wandb-summary.json wandb-summary.json
+2023-12-06 17:29:38,584 INFO    SenderThread:2972 [sender.py:transition_state():613] send defer: 10
+2023-12-06 17:29:38,584 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: defer
+2023-12-06 17:29:38,584 INFO    HandlerThread:2972 [handler.py:handle_request_defer():172] handle defer: 10
+2023-12-06 17:29:38,584 DEBUG   SenderThread:2972 [sender.py:send_request():407] send_request: defer
+2023-12-06 17:29:38,584 INFO    SenderThread:2972 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-12-06 17:29:38,584 INFO    SenderThread:2972 [file_pusher.py:finish():175] shutting down file pusher
+2023-12-06 17:29:38,977 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-06 17:29:39,133 INFO    wandb-upload_1:2972 [upload_job.py:push():131] Uploaded file C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files\output.log
+2023-12-06 17:29:39,533 INFO    wandb-upload_0:2972 [upload_job.py:push():131] Uploaded file C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files\config.yaml
+2023-12-06 17:29:40,295 INFO    wandb-upload_3:2972 [upload_job.py:push():131] Uploaded file C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files\wandb-summary.json
+2023-12-06 17:29:43,617 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:29:44,025 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-06 17:29:48,644 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:29:49,051 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-06 17:29:53,675 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:29:54,083 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-06 17:29:58,699 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:29:59,107 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-06 17:30:03,729 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:30:04,126 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-06 17:30:08,760 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:30:09,159 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-06 17:30:13,806 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:30:14,200 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-06 17:30:17,635 ERROR   wandb-upload_2:2972 [internal_api.py:upload_file():2557] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/maatvo/huggingface/n3xio4b1/requirements.txt?Expires=1701966578&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=pz0xFtu5YfMXm5utHWyRUQhL9x1vN6iBX8ExkAUDATNUO%2BarStUgXX2tIkTWjA9yoM%2BTEHxr5tItmlFKcieKEQ%2Fy2jDVqVgjkXNnC6NW%2BrFeY2bEBdbafJstZXJ%2B62zUZ%2FyUY76XF0wtxAZFz%2BeqW972PsIOJoAOmtftQwYM4zxFeLd1bGMDWhec57AqMrYWJvgoJ%2FOmG6mcrT88cyJg4KtDxe4JrcVAIYbYplowbQ%2B7nSeUWuiNBrKPK6KuCc3qgDHtavGmiVWxhC1HRjMHuEo8OHLZW6%2B7cC82pWTMesqa4lkKPuULrQH2wFa4objTrB6l1qfbn%2BJNsHekWHA%2F3Q%3D%3D: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2023-12-06 17:30:17,635 ERROR   wandb-upload_2:2972 [internal_api.py:upload_file():2559] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1706'}
+2023-12-06 17:30:17,635 ERROR   wandb-upload_2:2972 [internal_api.py:upload_file():2561] upload_file response body: 
+2023-12-06 17:30:18,855 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:30:19,229 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-06 17:30:19,379 INFO    wandb-upload_2:2972 [upload_job.py:push():131] Uploaded file C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\files\requirements.txt
+2023-12-06 17:30:19,583 INFO    Thread-15 (_thread_body):2972 [sender.py:transition_state():613] send defer: 11
+2023-12-06 17:30:19,583 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: defer
+2023-12-06 17:30:19,583 INFO    HandlerThread:2972 [handler.py:handle_request_defer():172] handle defer: 11
+2023-12-06 17:30:19,583 DEBUG   SenderThread:2972 [sender.py:send_request():407] send_request: defer
+2023-12-06 17:30:19,583 INFO    SenderThread:2972 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-12-06 17:30:19,583 INFO    SenderThread:2972 [file_pusher.py:join():181] waiting for file pusher
+2023-12-06 17:30:19,583 INFO    SenderThread:2972 [sender.py:transition_state():613] send defer: 12
+2023-12-06 17:30:19,583 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: defer
+2023-12-06 17:30:19,583 INFO    HandlerThread:2972 [handler.py:handle_request_defer():172] handle defer: 12
+2023-12-06 17:30:19,583 DEBUG   SenderThread:2972 [sender.py:send_request():407] send_request: defer
+2023-12-06 17:30:19,583 INFO    SenderThread:2972 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-12-06 17:30:19,583 INFO    SenderThread:2972 [file_stream.py:finish():595] file stream finish called
+2023-12-06 17:30:20,010 INFO    SenderThread:2972 [file_stream.py:finish():599] file stream finish is done
+2023-12-06 17:30:20,010 INFO    SenderThread:2972 [sender.py:transition_state():613] send defer: 13
+2023-12-06 17:30:20,010 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: defer
+2023-12-06 17:30:20,010 INFO    HandlerThread:2972 [handler.py:handle_request_defer():172] handle defer: 13
+2023-12-06 17:30:20,010 DEBUG   SenderThread:2972 [sender.py:send_request():407] send_request: defer
+2023-12-06 17:30:20,010 INFO    SenderThread:2972 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-12-06 17:30:20,010 INFO    SenderThread:2972 [sender.py:transition_state():613] send defer: 14
+2023-12-06 17:30:20,010 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: defer
+2023-12-06 17:30:20,010 INFO    HandlerThread:2972 [handler.py:handle_request_defer():172] handle defer: 14
+2023-12-06 17:30:20,010 DEBUG   SenderThread:2972 [sender.py:send():380] send: final
+2023-12-06 17:30:20,010 DEBUG   SenderThread:2972 [sender.py:send():380] send: footer
+2023-12-06 17:30:20,010 DEBUG   SenderThread:2972 [sender.py:send_request():407] send_request: defer
+2023-12-06 17:30:20,010 INFO    SenderThread:2972 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-12-06 17:30:20,010 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-06 17:30:20,010 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: server_info
+2023-12-06 17:30:20,010 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: get_summary
+2023-12-06 17:30:20,010 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: sampled_history
+2023-12-06 17:30:20,010 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-06 17:30:20,010 DEBUG   SenderThread:2972 [sender.py:send_request():407] send_request: poll_exit
+2023-12-06 17:30:20,010 DEBUG   SenderThread:2972 [sender.py:send_request():407] send_request: server_info
+2023-12-06 17:30:20,010 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: job_info
+2023-12-06 17:30:20,215 DEBUG   SenderThread:2972 [sender.py:send_request():407] send_request: job_info
+2023-12-06 17:30:20,216 INFO    MainThread:2972 [wandb_run.py:_footer_history_summary_info():3760] rendering history
+2023-12-06 17:30:20,216 INFO    MainThread:2972 [wandb_run.py:_footer_history_summary_info():3792] rendering summary
+2023-12-06 17:30:20,223 INFO    MainThread:2972 [wandb_run.py:_footer_sync_info():3719] logging synced files
+2023-12-06 17:30:20,225 DEBUG   HandlerThread:2972 [handler.py:handle_request():146] handle_request: shutdown
+2023-12-06 17:30:20,225 INFO    HandlerThread:2972 [handler.py:finish():866] shutting down handler
+2023-12-06 17:30:21,022 INFO    WriterThread:2972 [datastore.py:close():294] close: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_172856-n3xio4b1\run-n3xio4b1.wandb
+2023-12-06 17:30:21,221 INFO    SenderThread:2972 [sender.py:finish():1536] shutting down sender
+2023-12-06 17:30:21,221 INFO    SenderThread:2972 [file_pusher.py:finish():175] shutting down file pusher
+2023-12-06 17:30:21,221 INFO    SenderThread:2972 [file_pusher.py:join():181] waiting for file pusher

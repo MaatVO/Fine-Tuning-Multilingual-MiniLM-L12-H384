@@ -1,0 +1,486 @@
+2023-12-06 17:46:34,784 INFO    StreamThr :2864 [internal.py:wandb_internal():86] W&B internal server running at pid: 2864, started at: 2023-12-06 17:46:34.783072
+2023-12-06 17:46:34,786 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status
+2023-12-06 17:46:34,787 INFO    WriterThread:2864 [datastore.py:open_for_write():85] open: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\run-49g45qav.wandb
+2023-12-06 17:46:34,788 DEBUG   SenderThread:2864 [sender.py:send():380] send: header
+2023-12-06 17:46:34,816 DEBUG   SenderThread:2864 [sender.py:send():380] send: run
+2023-12-06 17:46:35,930 INFO    SenderThread:2864 [dir_watcher.py:__init__():211] watching files in: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files
+2023-12-06 17:46:35,930 INFO    SenderThread:2864 [sender.py:_start_run_threads():1124] run started: 49g45qav with start time 1701881194.784078
+2023-12-06 17:46:35,945 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: check_version
+2023-12-06 17:46:35,945 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: check_version
+2023-12-06 17:46:36,545 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: run_start
+2023-12-06 17:46:36,567 DEBUG   HandlerThread:2864 [system_info.py:__init__():32] System info init
+2023-12-06 17:46:36,567 DEBUG   HandlerThread:2864 [system_info.py:__init__():47] System info init done
+2023-12-06 17:46:36,567 INFO    HandlerThread:2864 [system_monitor.py:start():194] Starting system monitor
+2023-12-06 17:46:36,569 INFO    SystemMonitor:2864 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-12-06 17:46:36,569 INFO    HandlerThread:2864 [system_monitor.py:probe():214] Collecting system info
+2023-12-06 17:46:36,569 INFO    SystemMonitor:2864 [interfaces.py:start():190] Started cpu monitoring
+2023-12-06 17:46:36,569 INFO    SystemMonitor:2864 [interfaces.py:start():190] Started disk monitoring
+2023-12-06 17:46:36,569 INFO    SystemMonitor:2864 [interfaces.py:start():190] Started gpu monitoring
+2023-12-06 17:46:36,569 INFO    SystemMonitor:2864 [interfaces.py:start():190] Started memory monitoring
+2023-12-06 17:46:36,583 INFO    SystemMonitor:2864 [interfaces.py:start():190] Started network monitoring
+2023-12-06 17:46:36,583 DEBUG   HandlerThread:2864 [system_info.py:probe():196] Probing system
+2023-12-06 17:46:36,583 DEBUG   HandlerThread:2864 [system_info.py:_probe_git():181] Probing git
+2023-12-06 17:46:36,646 DEBUG   HandlerThread:2864 [system_info.py:_probe_git():189] Probing git done
+2023-12-06 17:46:36,646 DEBUG   HandlerThread:2864 [system_info.py:probe():244] Probing system done
+2023-12-06 17:46:36,646 DEBUG   HandlerThread:2864 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.11.6', 'heartbeatAt': '2023-12-06T16:46:36.583662', 'startedAt': '2023-12-06T16:46:34.767150', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'c:\\Users\\matti\\Documents\\GitHub\\Fine_tuning_llm_project\\main.py', 'codePathLocal': 'main.py', 'codePath': 'main.py', 'git': {'remote': 'https://github.com/MaatVO/Fine_tuning_llm_project.git', 'commit': 'ea31133186b21d5f6e75d5b4bbd4796ecfd609ca'}, 'email': '102108918+MaatVO@users.noreply.github.com', 'root': 'C:/Users/matti/Documents/GitHub/Fine_tuning_llm_project', 'host': 'Matlaptop', 'username': 'matti', 'executable': 'c:\\Users\\matti\\Documents\\GitHub\\Fine_tuning_llm_project\\.env\\Scripts\\python.exe', 'cpu_count': 14, 'cpu_count_logical': 20, 'cpu_freq': {'current': 2300.0, 'min': 0.0, 'max': 2300.0}, 'cpu_freq_per_core': [{'current': 2300.0, 'min': 0.0, 'max': 2300.0}], 'disk': {'/': {'total': 290.52920150756836, 'used': 203.39251708984375}}, 'gpu': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'memory_total': 4294967296}], 'memory': {'total': 15.730949401855469}}
+2023-12-06 17:46:36,646 INFO    HandlerThread:2864 [system_monitor.py:probe():224] Finished collecting system info
+2023-12-06 17:46:36,646 INFO    HandlerThread:2864 [system_monitor.py:probe():227] Publishing system info
+2023-12-06 17:46:36,646 DEBUG   HandlerThread:2864 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-12-06 17:46:36,646 DEBUG   HandlerThread:2864 [system_info.py:_save_pip():68] Saving pip packages done
+2023-12-06 17:46:36,646 INFO    HandlerThread:2864 [system_monitor.py:probe():229] Finished publishing system info
+2023-12-06 17:46:36,646 DEBUG   SenderThread:2864 [sender.py:send():380] send: files
+2023-12-06 17:46:36,646 INFO    SenderThread:2864 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2023-12-06 17:46:36,646 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-06 17:46:36,646 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: stop_status
+2023-12-06 17:46:36,646 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-06 17:46:36,948 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\wandb-metadata.json
+2023-12-06 17:46:36,949 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\requirements.txt
+2023-12-06 17:46:36,957 DEBUG   SenderThread:2864 [sender.py:send():380] send: telemetry
+2023-12-06 17:46:36,957 DEBUG   SenderThread:2864 [sender.py:send():380] send: config
+2023-12-06 17:46:36,969 DEBUG   SenderThread:2864 [sender.py:send():380] send: metric
+2023-12-06 17:46:36,969 DEBUG   SenderThread:2864 [sender.py:send():380] send: telemetry
+2023-12-06 17:46:36,969 DEBUG   SenderThread:2864 [sender.py:send():380] send: metric
+2023-12-06 17:46:36,969 WARNING SenderThread:2864 [sender.py:send_metric():1331] Seen metric with glob (shouldn't happen)
+2023-12-06 17:46:36,969 DEBUG   SenderThread:2864 [sender.py:send():380] send: telemetry
+2023-12-06 17:46:37,959 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:46:38,529 INFO    wandb-upload_0:2864 [upload_job.py:push():131] Uploaded file C:\Users\matti\AppData\Local\Temp\tmp784jco08wandb\wzvly688-wandb-metadata.json
+2023-12-06 17:46:39,984 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:46:40,243 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:46:40,985 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:46:43,001 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:46:45,802 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:46:51,078 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:46:51,660 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-06 17:46:51,660 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-06 17:46:51,661 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:46:51,661 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: stop_status
+2023-12-06 17:46:55,129 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:46:56,794 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:46:59,159 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:47:01,178 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:47:02,619 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:47:03,198 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:47:05,206 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:47:06,661 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-06 17:47:06,661 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: stop_status
+2023-12-06 17:47:06,676 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-06 17:47:06,716 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-06 17:47:07,003 DEBUG   SenderThread:2864 [sender.py:send():380] send: metric
+2023-12-06 17:47:07,003 DEBUG   SenderThread:2864 [sender.py:send():380] send: metric
+2023-12-06 17:47:07,004 DEBUG   SenderThread:2864 [sender.py:send():380] send: metric
+2023-12-06 17:47:07,004 DEBUG   SenderThread:2864 [sender.py:send():380] send: metric
+2023-12-06 17:47:07,004 DEBUG   SenderThread:2864 [sender.py:send():380] send: metric
+2023-12-06 17:47:07,004 DEBUG   SenderThread:2864 [sender.py:send():380] send: metric
+2023-12-06 17:47:07,004 DEBUG   SenderThread:2864 [sender.py:send():380] send: history
+2023-12-06 17:47:07,004 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: summary_record
+2023-12-06 17:47:07,005 INFO    SenderThread:2864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-06 17:47:07,217 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:47:07,218 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\wandb-summary.json
+2023-12-06 17:47:08,021 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:47:09,228 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:47:12,262 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\config.yaml
+2023-12-06 17:47:13,272 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:47:16,749 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:47:21,335 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:47:21,679 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-06 17:47:21,679 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-06 17:47:21,679 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: stop_status
+2023-12-06 17:47:22,042 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:47:23,349 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:47:25,357 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:47:27,496 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:47:29,399 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:47:33,044 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:47:33,434 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:47:36,597 DEBUG   SystemMonitor:2864 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-12-06 17:47:36,597 DEBUG   SenderThread:2864 [sender.py:send():380] send: stats
+2023-12-06 17:47:36,691 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-06 17:47:36,691 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-06 17:47:36,691 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: stop_status
+2023-12-06 17:47:37,481 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:47:38,940 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:47:39,494 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:47:43,532 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:47:44,707 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:47:45,379 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-06 17:47:45,379 DEBUG   SenderThread:2864 [sender.py:send():380] send: history
+2023-12-06 17:47:45,379 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: summary_record
+2023-12-06 17:47:45,395 INFO    SenderThread:2864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-06 17:47:45,535 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\wandb-summary.json
+2023-12-06 17:47:45,535 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:47:47,557 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:47:50,182 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:47:51,595 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:47:51,705 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-06 17:47:51,705 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: stop_status
+2023-12-06 17:47:51,705 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-06 17:47:55,600 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:47:55,616 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:47:57,642 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:48:00,884 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:48:01,671 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:48:03,692 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:48:06,611 DEBUG   SenderThread:2864 [sender.py:send():380] send: stats
+2023-12-06 17:48:06,611 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:48:06,705 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-06 17:48:06,705 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: stop_status
+2023-12-06 17:48:06,721 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-06 17:48:07,733 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:48:09,745 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:48:12,161 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:48:13,767 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:48:17,210 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:48:21,719 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-06 17:48:21,719 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: stop_status
+2023-12-06 17:48:21,734 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-06 17:48:21,845 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:48:22,729 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:48:23,862 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:48:24,382 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-06 17:48:24,382 DEBUG   SenderThread:2864 [sender.py:send():380] send: history
+2023-12-06 17:48:24,382 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: summary_record
+2023-12-06 17:48:24,382 INFO    SenderThread:2864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-06 17:48:24,881 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\wandb-summary.json
+2023-12-06 17:48:25,886 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:48:27,784 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:48:29,925 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:48:31,940 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:48:33,310 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:48:33,955 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:48:35,977 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:48:36,621 DEBUG   SenderThread:2864 [sender.py:send():380] send: stats
+2023-12-06 17:48:36,731 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-06 17:48:36,731 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: stop_status
+2023-12-06 17:48:36,747 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-06 17:48:37,993 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:48:39,084 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:48:42,024 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:48:44,961 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:48:49,069 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:48:50,293 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:48:50,740 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-06 17:48:50,742 DEBUG   SenderThread:2864 [sender.py:send():380] send: history
+2023-12-06 17:48:50,742 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: summary_record
+2023-12-06 17:48:50,743 INFO    SenderThread:2864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-06 17:48:51,080 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\wandb-summary.json
+2023-12-06 17:48:51,080 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:48:51,792 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-06 17:48:51,792 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-06 17:48:51,792 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: stop_status
+2023-12-06 17:48:53,085 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:48:55,343 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:48:57,122 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:49:01,110 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:49:05,176 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:49:06,554 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:49:06,632 DEBUG   SenderThread:2864 [sender.py:send():380] send: stats
+2023-12-06 17:49:06,791 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-06 17:49:06,791 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: stop_status
+2023-12-06 17:49:06,807 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-06 17:49:07,188 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:49:09,212 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:49:11,221 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:49:11,642 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:49:15,243 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:49:17,144 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:49:17,257 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:49:19,267 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:49:19,324 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-06 17:49:19,331 DEBUG   SenderThread:2864 [sender.py:send():380] send: history
+2023-12-06 17:49:19,331 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: summary_record
+2023-12-06 17:49:19,331 INFO    SenderThread:2864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-06 17:49:20,282 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\wandb-summary.json
+2023-12-06 17:49:21,293 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:49:21,799 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-06 17:49:21,799 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: stop_status
+2023-12-06 17:49:21,815 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-06 17:49:23,136 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:49:23,299 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:49:25,319 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:49:27,329 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:49:28,633 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:49:31,357 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:49:33,991 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:49:35,399 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:49:36,645 DEBUG   SenderThread:2864 [sender.py:send():380] send: stats
+2023-12-06 17:49:36,827 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-06 17:49:36,827 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-06 17:49:36,827 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: stop_status
+2023-12-06 17:49:37,413 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:49:39,060 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:49:41,438 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:49:44,094 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:49:47,471 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:49:49,745 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:49:50,642 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-06 17:49:50,642 DEBUG   SenderThread:2864 [sender.py:send():380] send: history
+2023-12-06 17:49:50,642 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: summary_record
+2023-12-06 17:49:50,642 INFO    SenderThread:2864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-06 17:49:51,498 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\wandb-summary.json
+2023-12-06 17:49:51,498 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:49:51,939 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-06 17:49:51,942 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-06 17:49:51,942 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: stop_status
+2023-12-06 17:49:54,949 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:49:55,548 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:49:57,563 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:50:00,777 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:50:01,581 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:50:03,596 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:50:05,622 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:50:06,365 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:50:06,648 DEBUG   SenderThread:2864 [sender.py:send():380] send: stats
+2023-12-06 17:50:06,913 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-06 17:50:06,913 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: stop_status
+2023-12-06 17:50:06,913 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-06 17:50:11,772 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:50:13,679 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:50:15,682 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:50:17,147 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:50:17,698 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:50:19,228 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-06 17:50:19,228 DEBUG   SenderThread:2864 [sender.py:send():380] send: history
+2023-12-06 17:50:19,228 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: summary_record
+2023-12-06 17:50:19,228 INFO    SenderThread:2864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-06 17:50:19,728 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\wandb-summary.json
+2023-12-06 17:50:19,729 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:50:21,734 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:50:21,922 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-06 17:50:21,923 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-06 17:50:21,923 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: stop_status
+2023-12-06 17:50:22,296 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:50:25,775 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:50:27,546 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:50:27,789 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:50:32,570 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:50:35,833 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:50:36,649 DEBUG   SenderThread:2864 [sender.py:send():380] send: stats
+2023-12-06 17:50:36,927 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-06 17:50:36,927 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-06 17:50:36,927 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: stop_status
+2023-12-06 17:50:37,857 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:50:38,283 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:50:39,866 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:50:41,882 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:50:43,526 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:50:43,906 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:50:45,927 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:50:47,546 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-06 17:50:47,546 DEBUG   SenderThread:2864 [sender.py:send():380] send: history
+2023-12-06 17:50:47,546 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: summary_record
+2023-12-06 17:50:47,546 INFO    SenderThread:2864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-06 17:50:47,960 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\wandb-summary.json
+2023-12-06 17:50:47,960 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:50:48,565 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:50:49,991 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:50:51,936 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-06 17:50:51,936 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-06 17:50:51,936 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: stop_status
+2023-12-06 17:50:54,016 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:50:54,272 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:50:56,047 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:50:58,067 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:50:59,700 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:51:01,095 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:51:05,070 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:51:06,650 DEBUG   SenderThread:2864 [sender.py:send():380] send: stats
+2023-12-06 17:51:06,944 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-06 17:51:06,944 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-06 17:51:06,944 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: stop_status
+2023-12-06 17:51:09,143 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:51:10,499 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:51:11,165 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:51:13,189 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:51:15,197 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:51:15,826 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:51:17,206 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:51:19,844 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-06 17:51:19,848 DEBUG   SenderThread:2864 [sender.py:send():380] send: history
+2023-12-06 17:51:19,848 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: summary_record
+2023-12-06 17:51:19,850 INFO    SenderThread:2864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-06 17:51:20,245 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\wandb-summary.json
+2023-12-06 17:51:20,860 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:51:21,259 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:51:21,952 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-06 17:51:21,968 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-06 17:51:21,968 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: stop_status
+2023-12-06 17:51:26,319 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:51:29,342 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:51:31,975 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:51:33,389 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:51:35,396 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:51:36,665 DEBUG   SenderThread:2864 [sender.py:send():380] send: stats
+2023-12-06 17:51:36,958 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-06 17:51:36,974 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-06 17:51:36,974 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: stop_status
+2023-12-06 17:51:37,244 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:51:37,411 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:51:41,454 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:51:42,253 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:51:45,489 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:51:47,046 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-06 17:51:47,046 DEBUG   SenderThread:2864 [sender.py:send():380] send: history
+2023-12-06 17:51:47,046 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: summary_record
+2023-12-06 17:51:47,061 INFO    SenderThread:2864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-06 17:51:47,506 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\wandb-summary.json
+2023-12-06 17:51:47,506 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:51:48,069 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:51:49,164 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-06 17:51:49,164 DEBUG   SenderThread:2864 [sender.py:send():380] send: metric
+2023-12-06 17:51:49,164 DEBUG   SenderThread:2864 [sender.py:send():380] send: metric
+2023-12-06 17:51:49,164 DEBUG   SenderThread:2864 [sender.py:send():380] send: metric
+2023-12-06 17:51:49,164 DEBUG   SenderThread:2864 [sender.py:send():380] send: metric
+2023-12-06 17:51:49,164 DEBUG   SenderThread:2864 [sender.py:send():380] send: metric
+2023-12-06 17:51:49,164 DEBUG   SenderThread:2864 [sender.py:send():380] send: history
+2023-12-06 17:51:49,164 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: summary_record
+2023-12-06 17:51:49,164 INFO    SenderThread:2864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-06 17:51:49,529 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\wandb-summary.json
+2023-12-06 17:51:49,529 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:51:49,618 DEBUG   SenderThread:2864 [sender.py:send():380] send: exit
+2023-12-06 17:51:49,618 INFO    SenderThread:2864 [sender.py:send_exit():585] handling exit code: 1
+2023-12-06 17:51:49,618 INFO    SenderThread:2864 [sender.py:send_exit():587] handling runtime: 313
+2023-12-06 17:51:49,619 INFO    SenderThread:2864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-06 17:51:49,619 INFO    SenderThread:2864 [sender.py:send_exit():593] send defer
+2023-12-06 17:51:49,619 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: defer
+2023-12-06 17:51:49,619 INFO    HandlerThread:2864 [handler.py:handle_request_defer():172] handle defer: 0
+2023-12-06 17:51:49,620 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: defer
+2023-12-06 17:51:49,620 INFO    SenderThread:2864 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-12-06 17:51:49,620 INFO    SenderThread:2864 [sender.py:transition_state():613] send defer: 1
+2023-12-06 17:51:49,620 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: defer
+2023-12-06 17:51:49,620 INFO    HandlerThread:2864 [handler.py:handle_request_defer():172] handle defer: 1
+2023-12-06 17:51:49,620 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: defer
+2023-12-06 17:51:49,620 INFO    SenderThread:2864 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-12-06 17:51:49,620 INFO    SenderThread:2864 [sender.py:transition_state():613] send defer: 2
+2023-12-06 17:51:49,620 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: defer
+2023-12-06 17:51:49,620 INFO    HandlerThread:2864 [handler.py:handle_request_defer():172] handle defer: 2
+2023-12-06 17:51:49,620 INFO    HandlerThread:2864 [system_monitor.py:finish():203] Stopping system monitor
+2023-12-06 17:51:49,620 DEBUG   SystemMonitor:2864 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-12-06 17:51:49,625 DEBUG   SystemMonitor:2864 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-12-06 17:51:49,626 INFO    HandlerThread:2864 [interfaces.py:finish():202] Joined cpu monitor
+2023-12-06 17:51:49,626 INFO    HandlerThread:2864 [interfaces.py:finish():202] Joined disk monitor
+2023-12-06 17:51:49,657 INFO    HandlerThread:2864 [interfaces.py:finish():202] Joined gpu monitor
+2023-12-06 17:51:49,657 INFO    HandlerThread:2864 [interfaces.py:finish():202] Joined memory monitor
+2023-12-06 17:51:49,657 INFO    HandlerThread:2864 [interfaces.py:finish():202] Joined network monitor
+2023-12-06 17:51:49,657 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: defer
+2023-12-06 17:51:49,657 INFO    SenderThread:2864 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-12-06 17:51:49,657 INFO    SenderThread:2864 [sender.py:transition_state():613] send defer: 3
+2023-12-06 17:51:49,657 DEBUG   SenderThread:2864 [sender.py:send():380] send: stats
+2023-12-06 17:51:49,657 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: defer
+2023-12-06 17:51:49,657 INFO    HandlerThread:2864 [handler.py:handle_request_defer():172] handle defer: 3
+2023-12-06 17:51:49,657 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: defer
+2023-12-06 17:51:49,657 INFO    SenderThread:2864 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-12-06 17:51:49,657 INFO    SenderThread:2864 [sender.py:transition_state():613] send defer: 4
+2023-12-06 17:51:49,657 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: defer
+2023-12-06 17:51:49,657 INFO    HandlerThread:2864 [handler.py:handle_request_defer():172] handle defer: 4
+2023-12-06 17:51:49,657 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: defer
+2023-12-06 17:51:49,657 INFO    SenderThread:2864 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-12-06 17:51:49,657 INFO    SenderThread:2864 [sender.py:transition_state():613] send defer: 5
+2023-12-06 17:51:49,657 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: defer
+2023-12-06 17:51:49,657 INFO    HandlerThread:2864 [handler.py:handle_request_defer():172] handle defer: 5
+2023-12-06 17:51:49,657 DEBUG   SenderThread:2864 [sender.py:send():380] send: summary
+2023-12-06 17:51:49,664 INFO    SenderThread:2864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-06 17:51:49,665 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: defer
+2023-12-06 17:51:49,665 INFO    SenderThread:2864 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-12-06 17:51:49,665 INFO    SenderThread:2864 [sender.py:transition_state():613] send defer: 6
+2023-12-06 17:51:49,665 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: defer
+2023-12-06 17:51:49,665 INFO    HandlerThread:2864 [handler.py:handle_request_defer():172] handle defer: 6
+2023-12-06 17:51:49,665 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: defer
+2023-12-06 17:51:49,665 INFO    SenderThread:2864 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-12-06 17:51:49,665 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-06 17:51:50,463 INFO    SenderThread:2864 [sender.py:transition_state():613] send defer: 7
+2023-12-06 17:51:50,463 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: defer
+2023-12-06 17:51:50,463 INFO    HandlerThread:2864 [handler.py:handle_request_defer():172] handle defer: 7
+2023-12-06 17:51:50,463 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: defer
+2023-12-06 17:51:50,463 INFO    SenderThread:2864 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-12-06 17:51:50,542 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\config.yaml
+2023-12-06 17:51:50,542 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\wandb-summary.json
+2023-12-06 17:51:50,636 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-06 17:51:51,368 INFO    SenderThread:2864 [sender.py:transition_state():613] send defer: 8
+2023-12-06 17:51:51,368 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: poll_exit
+2023-12-06 17:51:51,368 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: defer
+2023-12-06 17:51:51,368 INFO    HandlerThread:2864 [handler.py:handle_request_defer():172] handle defer: 8
+2023-12-06 17:51:51,368 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: defer
+2023-12-06 17:51:51,368 INFO    SenderThread:2864 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-12-06 17:51:51,368 INFO    SenderThread:2864 [job_builder.py:build():298] Attempting to build job artifact
+2023-12-06 17:51:51,368 INFO    SenderThread:2864 [job_builder.py:_get_source_type():428] is repo sourced job
+2023-12-06 17:51:51,427 INFO    SenderThread:2864 [job_builder.py:build():404] adding wandb-job metadata file
+2023-12-06 17:51:51,427 INFO    SenderThread:2864 [sender.py:transition_state():613] send defer: 9
+2023-12-06 17:51:51,427 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: defer
+2023-12-06 17:51:51,427 DEBUG   SenderThread:2864 [sender.py:send():380] send: artifact
+2023-12-06 17:51:51,427 INFO    HandlerThread:2864 [handler.py:handle_request_defer():172] handle defer: 9
+2023-12-06 17:51:51,552 INFO    Thread-16 :2864 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:51:51,646 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-06 17:51:52,539 INFO    SenderThread:2864 [sender.py:send_artifact():1458] sent artifact job-https___github.com_MaatVO_Fine_tuning_llm_project.git_main.py - {'id': 'QXJ0aWZhY3Q6NjU5MjU4Nzcz', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEyMTM5MDQ5OQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NjU5MjcwNTQ4', 'versionIndex': 1}}}
+2023-12-06 17:51:52,539 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: defer
+2023-12-06 17:51:52,539 INFO    SenderThread:2864 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-12-06 17:51:52,540 INFO    SenderThread:2864 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-12-06 17:51:52,556 INFO    SenderThread:2864 [dir_watcher.py:finish():388] scan: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files
+2023-12-06 17:51:52,556 INFO    SenderThread:2864 [dir_watcher.py:finish():402] scan save: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\config.yaml config.yaml
+2023-12-06 17:51:52,556 INFO    SenderThread:2864 [dir_watcher.py:finish():402] scan save: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log output.log
+2023-12-06 17:51:52,556 INFO    SenderThread:2864 [dir_watcher.py:finish():402] scan save: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\requirements.txt requirements.txt
+2023-12-06 17:51:52,556 INFO    SenderThread:2864 [dir_watcher.py:finish():402] scan save: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\wandb-metadata.json wandb-metadata.json
+2023-12-06 17:51:52,556 INFO    SenderThread:2864 [dir_watcher.py:finish():402] scan save: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\wandb-summary.json wandb-summary.json
+2023-12-06 17:51:52,557 INFO    SenderThread:2864 [sender.py:transition_state():613] send defer: 10
+2023-12-06 17:51:52,557 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: poll_exit
+2023-12-06 17:51:52,557 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: defer
+2023-12-06 17:51:52,557 INFO    HandlerThread:2864 [handler.py:handle_request_defer():172] handle defer: 10
+2023-12-06 17:51:52,559 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: defer
+2023-12-06 17:51:52,559 INFO    SenderThread:2864 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-12-06 17:51:52,559 INFO    SenderThread:2864 [file_pusher.py:finish():175] shutting down file pusher
+2023-12-06 17:51:52,660 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-06 17:51:52,660 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: poll_exit
+2023-12-06 17:51:53,670 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-06 17:51:53,670 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: poll_exit
+2023-12-06 17:51:53,762 INFO    wandb-upload_1:2864 [upload_job.py:push():131] Uploaded file C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\output.log
+2023-12-06 17:51:53,762 INFO    wandb-upload_0:2864 [upload_job.py:push():131] Uploaded file C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\config.yaml
+2023-12-06 17:51:54,522 INFO    wandb-upload_3:2864 [upload_job.py:push():131] Uploaded file C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\wandb-summary.json
+2023-12-06 17:51:54,522 INFO    wandb-upload_2:2864 [upload_job.py:push():131] Uploaded file C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\files\requirements.txt
+2023-12-06 17:51:54,691 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-06 17:51:54,691 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: poll_exit
+2023-12-06 17:51:54,747 INFO    Thread-15 (_thread_body):2864 [sender.py:transition_state():613] send defer: 11
+2023-12-06 17:51:54,748 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: defer
+2023-12-06 17:51:54,748 INFO    HandlerThread:2864 [handler.py:handle_request_defer():172] handle defer: 11
+2023-12-06 17:51:54,748 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: defer
+2023-12-06 17:51:54,748 INFO    SenderThread:2864 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-12-06 17:51:54,748 INFO    SenderThread:2864 [file_pusher.py:join():181] waiting for file pusher
+2023-12-06 17:51:54,748 INFO    SenderThread:2864 [sender.py:transition_state():613] send defer: 12
+2023-12-06 17:51:54,748 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: defer
+2023-12-06 17:51:54,748 INFO    HandlerThread:2864 [handler.py:handle_request_defer():172] handle defer: 12
+2023-12-06 17:51:54,748 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: defer
+2023-12-06 17:51:54,748 INFO    SenderThread:2864 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-12-06 17:51:54,748 INFO    SenderThread:2864 [file_stream.py:finish():595] file stream finish called
+2023-12-06 17:51:55,693 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-06 17:51:55,872 INFO    SenderThread:2864 [file_stream.py:finish():599] file stream finish is done
+2023-12-06 17:51:55,872 INFO    SenderThread:2864 [sender.py:transition_state():613] send defer: 13
+2023-12-06 17:51:55,872 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: poll_exit
+2023-12-06 17:51:55,872 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: defer
+2023-12-06 17:51:55,872 INFO    HandlerThread:2864 [handler.py:handle_request_defer():172] handle defer: 13
+2023-12-06 17:51:55,872 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: defer
+2023-12-06 17:51:55,872 INFO    SenderThread:2864 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-12-06 17:51:55,872 INFO    SenderThread:2864 [sender.py:transition_state():613] send defer: 14
+2023-12-06 17:51:55,872 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: defer
+2023-12-06 17:51:55,872 INFO    HandlerThread:2864 [handler.py:handle_request_defer():172] handle defer: 14
+2023-12-06 17:51:55,872 DEBUG   SenderThread:2864 [sender.py:send():380] send: final
+2023-12-06 17:51:55,872 DEBUG   SenderThread:2864 [sender.py:send():380] send: footer
+2023-12-06 17:51:55,872 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: defer
+2023-12-06 17:51:55,872 INFO    SenderThread:2864 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-12-06 17:51:55,872 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-06 17:51:55,872 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: poll_exit
+2023-12-06 17:51:55,887 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-06 17:51:55,887 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: server_info
+2023-12-06 17:51:55,887 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: get_summary
+2023-12-06 17:51:55,887 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: sampled_history
+2023-12-06 17:51:55,887 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-06 17:51:55,887 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: poll_exit
+2023-12-06 17:51:55,887 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: server_info
+2023-12-06 17:51:55,887 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: job_info
+2023-12-06 17:51:56,083 DEBUG   SenderThread:2864 [sender.py:send_request():407] send_request: job_info
+2023-12-06 17:51:56,083 INFO    MainThread:2864 [wandb_run.py:_footer_history_summary_info():3760] rendering history
+2023-12-06 17:51:56,083 INFO    MainThread:2864 [wandb_run.py:_footer_history_summary_info():3792] rendering summary
+2023-12-06 17:51:56,083 INFO    MainThread:2864 [wandb_run.py:_footer_sync_info():3719] logging synced files
+2023-12-06 17:51:56,083 DEBUG   HandlerThread:2864 [handler.py:handle_request():146] handle_request: shutdown
+2023-12-06 17:51:56,083 INFO    HandlerThread:2864 [handler.py:finish():866] shutting down handler
+2023-12-06 17:51:56,897 INFO    WriterThread:2864 [datastore.py:close():294] close: C:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231206_174634-49g45qav\run-49g45qav.wandb
+2023-12-06 17:51:57,086 INFO    SenderThread:2864 [sender.py:finish():1536] shutting down sender
+2023-12-06 17:51:57,086 INFO    SenderThread:2864 [file_pusher.py:finish():175] shutting down file pusher
+2023-12-06 17:51:57,086 INFO    SenderThread:2864 [file_pusher.py:join():181] waiting for file pusher

@@ -1,0 +1,160 @@
+  0%|                                                                       | 0/450 [00:00<?, ?it/s]You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 10%|██████▏                                                       | 45/450 [01:42<18:54,  2.80s/it]
+  0%|                                                                         | 0/3 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 20%|███████████████████                                                                            | 90/450 [03:33<16:53,  2.81s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 30%|████████████████████████████▏                                                                 | 135/450 [05:17<16:39,  3.17s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 40%|█████████████████████████████████████▌                                                        | 180/450 [07:04<07:45,  1.72s/it]
+  0%|                                                                                                          | 0/3 [00:00<?, ?it/s]
+
+
+
+
+
+ 42%|███████████████████████████████████████                                                       | 187/450 [07:23<12:50,  2.93s/it]Traceback (most recent call last):
+  File "c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\main.py", line 108, in <module>
+    trainer.train()
+  File "c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\transformers\trainer.py", line 1555, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\transformers\trainer.py", line 1838, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\accelerate\data_loader.py", line 460, in __iter__
+    current_batch = send_to_device(current_batch, self.device)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\accelerate\utils\operations.py", line 160, in send_to_device
+    {
+  File "c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\accelerate\utils\operations.py", line 161, in <dictcomp>
+    k: t if k in skip_keys else send_to_device(t, device, non_blocking=non_blocking, skip_keys=skip_keys)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\accelerate\utils\operations.py", line 167, in send_to_device
+    return tensor.to(device, non_blocking=non_blocking)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

@@ -1,0 +1,53 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.11.6",
+    "heartbeatAt": "2023-12-06T16:34:18.756833",
+    "startedAt": "2023-12-06T16:34:16.847903",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "c:\\Users\\matti\\Documents\\GitHub\\Fine_tuning_llm_project\\main.py",
+    "codePathLocal": "main.py",
+    "codePath": "main.py",
+    "git": {
+        "remote": "https://github.com/MaatVO/Fine_tuning_llm_project.git",
+        "commit": "ea31133186b21d5f6e75d5b4bbd4796ecfd609ca"
+    },
+    "email": "102108918+MaatVO@users.noreply.github.com",
+    "root": "C:/Users/matti/Documents/GitHub/Fine_tuning_llm_project",
+    "host": "Matlaptop",
+    "username": "matti",
+    "executable": "c:\\Users\\matti\\Documents\\GitHub\\Fine_tuning_llm_project\\.env\\Scripts\\python.exe",
+    "cpu_count": 14,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 2300.0,
+        "min": 0.0,
+        "max": 2300.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2300.0,
+            "min": 0.0,
+            "max": 2300.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 290.52920150756836,
+            "used": 179.37962341308594
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 15.730949401855469
+    }
+}

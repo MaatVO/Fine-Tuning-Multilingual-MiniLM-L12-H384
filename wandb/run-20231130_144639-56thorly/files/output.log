@@ -1,0 +1,41 @@
+
+You're using a T5TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+{'eval_loss': 2.481208324432373, 'eval_runtime': 0.4322, 'eval_samples_per_second': 11.568, 'eval_steps_per_second': 2.314, 'epoch': 1.0}
+{'eval_loss': 1.5757315158843994, 'eval_runtime': 0.4204, 'eval_samples_per_second': 11.895, 'eval_steps_per_second': 2.379, 'epoch': 2.0}
+c:\Users\matti\miniconda3\Lib\site-packages\transformers\generation\utils.py:1273: UserWarning: Using the model-agnostic default `max_length` (=20) to control the generation length. We recommend setting `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+{'eval_loss': 1.2595899105072021, 'eval_runtime': 0.4553, 'eval_samples_per_second': 10.981, 'eval_steps_per_second': 2.196, 'epoch': 3.0}
+{'train_runtime': 209.4824, 'train_samples_per_second': 0.644, 'train_steps_per_second': 0.329, 'train_loss': 2.7370819976364356, 'epoch': 3.0}
+collect results:    prediction labels   corr
+0    Saturday      T  False
+1  Cork tiles      T  False
+2           T      T   True
+3           T      T   True
+4           T      T   True
+You're using a T5TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+{'eval_loss': 2.752608299255371, 'eval_runtime': 0.4013, 'eval_samples_per_second': 12.458, 'eval_steps_per_second': 2.492, 'epoch': 1.0}
+{'eval_loss': 1.9354584217071533, 'eval_runtime': 0.3936, 'eval_samples_per_second': 12.704, 'eval_steps_per_second': 2.541, 'epoch': 2.0}
+{'eval_loss': 1.6261154413223267, 'eval_runtime': 0.4494, 'eval_samples_per_second': 11.127, 'eval_steps_per_second': 2.225, 'epoch': 3.0}
+{'train_runtime': 89.3994, 'train_samples_per_second': 1.51, 'train_steps_per_second': 0.772, 'train_loss': 2.729040615800498, 'epoch': 3.0}
+c:\Users\matti\miniconda3\Lib\site-packages\transformers\generation\utils.py:1273: UserWarning: Using the model-agnostic default `max_length` (=20) to control the generation length. We recommend setting `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+collect results:                                           prediction labels   corr
+0                   i will be announcing the wedding      T  False
+1                                                  T      T   True
+2  I'm going to be taking any remaining items and...      T  False
+3  i will travel with my husband and children to ...      T  False
+4  I am a huge 49ers fan so I I very excited abou...      T  False
+You're using a T5TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+{'eval_loss': 2.1255292892456055, 'eval_runtime': 0.3499, 'eval_samples_per_second': 14.29, 'eval_steps_per_second': 2.858, 'epoch': 1.0}
+{'eval_loss': 1.2748687267303467, 'eval_runtime': 0.3, 'eval_samples_per_second': 16.665, 'eval_steps_per_second': 3.333, 'epoch': 2.0}
+c:\Users\matti\miniconda3\Lib\site-packages\transformers\generation\utils.py:1273: UserWarning: Using the model-agnostic default `max_length` (=20) to control the generation length. We recommend setting `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+{'eval_loss': 0.9651549458503723, 'eval_runtime': 0.2952, 'eval_samples_per_second': 16.94, 'eval_steps_per_second': 3.388, 'epoch': 3.0}
+{'train_runtime': 85.6408, 'train_samples_per_second': 1.576, 'train_steps_per_second': 0.806, 'train_loss': 2.8273826267408286, 'epoch': 3.0}
+collect results:                                           prediction labels   corr
+0                                      Cannock Chase      T  False
+1                                                  T      T   True
+2  I want to pick her up after work and taking he...      T  False
+3  I leave my house with my dog at 07:00 each wor...      T  False
+4                                                  T      T   True
+You're using a T5TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.

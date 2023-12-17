@@ -1,0 +1,1461 @@
+2023-12-08 13:55:12,237 INFO    StreamThr :13864 [internal.py:wandb_internal():86] W&B internal server running at pid: 13864, started at: 2023-12-08 13:55:12.237360
+2023-12-08 13:55:12,253 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status
+2023-12-08 13:55:12,271 INFO    WriterThread:13864 [datastore.py:open_for_write():85] open: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\run-qbrh10zz.wandb
+2023-12-08 13:55:12,272 DEBUG   SenderThread:13864 [sender.py:send():380] send: header
+2023-12-08 13:55:12,361 DEBUG   SenderThread:13864 [sender.py:send():380] send: run
+2023-12-08 13:55:13,312 INFO    SenderThread:13864 [dir_watcher.py:__init__():211] watching files in: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files
+2023-12-08 13:55:13,312 INFO    SenderThread:13864 [sender.py:_start_run_threads():1124] run started: qbrh10zz with start time 1702040112.253049
+2023-12-08 13:55:13,348 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: check_version
+2023-12-08 13:55:13,348 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: check_version
+2023-12-08 13:55:14,068 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: run_start
+2023-12-08 13:55:14,123 DEBUG   HandlerThread:13864 [system_info.py:__init__():32] System info init
+2023-12-08 13:55:14,123 DEBUG   HandlerThread:13864 [system_info.py:__init__():47] System info init done
+2023-12-08 13:55:14,123 INFO    HandlerThread:13864 [system_monitor.py:start():194] Starting system monitor
+2023-12-08 13:55:14,125 INFO    SystemMonitor:13864 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-12-08 13:55:14,125 INFO    HandlerThread:13864 [system_monitor.py:probe():214] Collecting system info
+2023-12-08 13:55:14,131 INFO    SystemMonitor:13864 [interfaces.py:start():190] Started cpu monitoring
+2023-12-08 13:55:14,131 INFO    SystemMonitor:13864 [interfaces.py:start():190] Started disk monitoring
+2023-12-08 13:55:14,131 INFO    SystemMonitor:13864 [interfaces.py:start():190] Started gpu monitoring
+2023-12-08 13:55:14,142 INFO    SystemMonitor:13864 [interfaces.py:start():190] Started memory monitoring
+2023-12-08 13:55:14,162 INFO    SystemMonitor:13864 [interfaces.py:start():190] Started network monitoring
+2023-12-08 13:55:14,178 DEBUG   HandlerThread:13864 [system_info.py:probe():196] Probing system
+2023-12-08 13:55:14,182 DEBUG   HandlerThread:13864 [system_info.py:_probe_git():181] Probing git
+2023-12-08 13:55:14,349 DEBUG   HandlerThread:13864 [system_info.py:_probe_git():189] Probing git done
+2023-12-08 13:55:14,349 DEBUG   HandlerThread:13864 [system_info.py:probe():244] Probing system done
+2023-12-08 13:55:14,349 DEBUG   HandlerThread:13864 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.11.6', 'heartbeatAt': '2023-12-08T12:55:14.178417', 'startedAt': '2023-12-08T12:55:12.221692', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/MaatVO/Fine_tuning_llm_project.git', 'commit': 'ea31133186b21d5f6e75d5b4bbd4796ecfd609ca'}, 'email': '102108918+MaatVO@users.noreply.github.com', 'root': 'C:/Users/matti/Documents/GitHub/Fine_tuning_llm_project', 'host': 'Matlaptop', 'username': 'matti', 'executable': 'c:\\Users\\matti\\Documents\\GitHub\\Fine_tuning_llm_project\\.env\\Scripts\\python.exe', 'cpu_count': 14, 'cpu_count_logical': 20, 'cpu_freq': {'current': 1744.0, 'min': 0.0, 'max': 2300.0}, 'cpu_freq_per_core': [{'current': 1744.0, 'min': 0.0, 'max': 2300.0}], 'disk': {'/': {'total': 290.52920150756836, 'used': 243.17506408691406}}, 'gpu': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'memory_total': 4294967296}], 'memory': {'total': 15.730949401855469}}
+2023-12-08 13:55:14,349 INFO    HandlerThread:13864 [system_monitor.py:probe():224] Finished collecting system info
+2023-12-08 13:55:14,350 INFO    HandlerThread:13864 [system_monitor.py:probe():227] Publishing system info
+2023-12-08 13:55:14,350 DEBUG   HandlerThread:13864 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-12-08 13:55:14,351 DEBUG   HandlerThread:13864 [system_info.py:_save_pip():68] Saving pip packages done
+2023-12-08 13:55:14,353 INFO    HandlerThread:13864 [system_monitor.py:probe():229] Finished publishing system info
+2023-12-08 13:55:14,363 DEBUG   SenderThread:13864 [sender.py:send():380] send: files
+2023-12-08 13:55:14,363 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2023-12-08 13:55:14,402 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 13:55:14,402 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 13:55:14,406 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 13:55:15,252 DEBUG   SenderThread:13864 [sender.py:send():380] send: telemetry
+2023-12-08 13:55:15,252 DEBUG   SenderThread:13864 [sender.py:send():380] send: config
+2023-12-08 13:55:15,253 DEBUG   SenderThread:13864 [sender.py:send():380] send: metric
+2023-12-08 13:55:15,254 DEBUG   SenderThread:13864 [sender.py:send():380] send: telemetry
+2023-12-08 13:55:15,254 DEBUG   SenderThread:13864 [sender.py:send():380] send: metric
+2023-12-08 13:55:15,254 WARNING SenderThread:13864 [sender.py:send_metric():1331] Seen metric with glob (shouldn't happen)
+2023-12-08 13:55:15,254 DEBUG   SenderThread:13864 [sender.py:send():380] send: telemetry
+2023-12-08 13:55:15,323 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\requirements.txt
+2023-12-08 13:55:15,323 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 13:55:15,323 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-metadata.json
+2023-12-08 13:55:15,547 INFO    wandb-upload_0:13864 [upload_job.py:push():131] Uploaded file C:\Users\matti\AppData\Local\Temp\tmpt8q7c5p7wandb\jn54dlrb-wandb-metadata.json
+2023-12-08 13:55:17,280 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:55:17,338 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 13:55:22,304 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:55:27,354 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:55:29,412 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 13:55:29,429 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 13:55:29,430 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 13:55:32,696 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:55:37,729 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:55:42,783 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:55:43,522 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\config.yaml
+2023-12-08 13:55:44,427 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 13:55:44,428 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 13:55:44,428 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 13:55:48,696 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:55:53,729 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:55:58,755 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:55:59,428 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 13:55:59,429 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 13:55:59,446 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 13:56:04,713 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:56:09,750 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:56:14,163 DEBUG   SystemMonitor:13864 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-12-08 13:56:14,163 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 13:56:14,429 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 13:56:14,429 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 13:56:14,454 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 13:56:15,686 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:56:20,704 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:56:25,851 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 13:56:25,945 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:56:29,440 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 13:56:29,440 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 13:56:29,470 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 13:56:29,554 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-08 13:56:29,686 DEBUG   SenderThread:13864 [sender.py:send():380] send: metric
+2023-12-08 13:56:29,686 DEBUG   SenderThread:13864 [sender.py:send():380] send: metric
+2023-12-08 13:56:29,686 DEBUG   SenderThread:13864 [sender.py:send():380] send: metric
+2023-12-08 13:56:29,686 DEBUG   SenderThread:13864 [sender.py:send():380] send: metric
+2023-12-08 13:56:29,686 DEBUG   SenderThread:13864 [sender.py:send():380] send: metric
+2023-12-08 13:56:29,686 DEBUG   SenderThread:13864 [sender.py:send():380] send: metric
+2023-12-08 13:56:29,686 DEBUG   SenderThread:13864 [sender.py:send():380] send: metric
+2023-12-08 13:56:29,686 DEBUG   SenderThread:13864 [sender.py:send():380] send: metric
+2023-12-08 13:56:29,686 DEBUG   SenderThread:13864 [sender.py:send():380] send: metric
+2023-12-08 13:56:29,686 DEBUG   SenderThread:13864 [sender.py:send():380] send: history
+2023-12-08 13:56:29,686 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: summary_record
+2023-12-08 13:56:29,686 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 13:56:29,883 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-summary.json
+2023-12-08 13:56:31,702 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:56:31,902 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 13:56:36,729 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:56:41,764 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:56:44,170 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 13:56:44,450 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 13:56:44,450 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 13:56:44,483 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 13:56:47,645 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:56:48,053 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\config.yaml
+2023-12-08 13:56:52,902 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:56:57,924 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:56:59,470 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 13:56:59,470 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 13:56:59,486 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 13:57:03,728 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:57:08,753 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:57:13,774 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:57:14,169 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 13:57:14,487 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 13:57:14,487 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 13:57:14,498 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 13:57:19,703 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:57:24,728 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:57:29,502 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 13:57:29,502 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 13:57:29,503 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 13:57:29,753 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:57:34,786 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:57:39,814 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:57:44,186 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 13:57:44,511 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 13:57:44,511 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 13:57:44,511 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 13:57:45,785 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:57:47,695 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-08 13:57:47,697 DEBUG   SenderThread:13864 [sender.py:send():380] send: history
+2023-12-08 13:57:47,697 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: summary_record
+2023-12-08 13:57:47,697 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 13:57:48,544 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-summary.json
+2023-12-08 13:57:50,559 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 13:57:51,726 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:57:56,742 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:57:59,527 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 13:57:59,528 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 13:57:59,528 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 13:58:02,743 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:58:07,761 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:58:12,800 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:58:14,201 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 13:58:14,527 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 13:58:14,527 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 13:58:14,527 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 13:58:18,799 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:58:23,827 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:58:28,860 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:58:29,543 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 13:58:29,552 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 13:58:29,552 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 13:58:34,818 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:58:39,842 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:58:44,202 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 13:58:44,552 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 13:58:44,560 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 13:58:44,560 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 13:58:45,810 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:58:50,841 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:58:55,860 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:58:59,560 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 13:58:59,576 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 13:58:59,577 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 13:59:00,153 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-08 13:59:00,153 DEBUG   SenderThread:13864 [sender.py:send():380] send: history
+2023-12-08 13:59:00,153 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: summary_record
+2023-12-08 13:59:00,161 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 13:59:01,101 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-summary.json
+2023-12-08 13:59:01,168 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:59:02,120 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 13:59:06,199 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:59:11,226 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:59:14,210 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 13:59:14,571 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 13:59:14,584 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 13:59:14,584 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 13:59:16,751 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:59:21,785 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:59:26,824 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:59:29,584 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 13:59:29,600 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 13:59:29,601 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 13:59:31,843 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:59:36,867 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:59:41,901 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:59:44,226 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 13:59:44,601 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 13:59:44,601 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 13:59:44,601 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 13:59:47,800 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:59:52,840 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:59:57,867 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 13:59:59,599 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 13:59:59,600 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 13:59:59,609 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:00:03,840 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:00:08,850 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:00:13,899 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:00:14,227 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:00:14,609 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:00:14,609 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:00:14,625 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:00:16,183 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-08 14:00:16,192 DEBUG   SenderThread:13864 [sender.py:send():380] send: history
+2023-12-08 14:00:16,192 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: summary_record
+2023-12-08 14:00:16,202 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 14:00:16,719 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-summary.json
+2023-12-08 14:00:18,734 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 14:00:19,225 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:00:24,258 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:00:29,266 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:00:29,625 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:00:29,625 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:00:29,640 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:00:34,898 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:00:39,908 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:00:44,228 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:00:44,637 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:00:44,637 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:00:44,649 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:00:45,881 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:00:50,908 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:00:55,943 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:00:59,650 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:00:59,650 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:00:59,658 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:01:01,898 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:01:06,924 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:01:11,966 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:01:14,241 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:01:14,658 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:01:14,658 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:01:14,666 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:01:17,899 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:01:22,939 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:01:27,966 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:01:29,682 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:01:29,682 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:01:29,682 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:01:30,959 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-08 14:01:30,960 DEBUG   SenderThread:13864 [sender.py:send():380] send: history
+2023-12-08 14:01:30,960 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: summary_record
+2023-12-08 14:01:30,961 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 14:01:31,307 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-summary.json
+2023-12-08 14:01:32,324 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 14:01:33,981 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:01:39,008 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:01:44,057 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:01:44,249 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:01:44,682 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:01:44,682 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:01:44,698 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:01:49,961 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:01:54,982 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:01:59,698 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:01:59,698 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:01:59,706 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:02:00,948 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:02:05,965 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:02:10,990 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:02:14,257 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:02:14,722 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:02:14,722 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:02:14,722 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:02:16,965 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:02:22,006 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:02:27,038 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:02:29,721 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:02:29,737 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:02:29,738 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:02:32,898 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:02:37,938 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:02:42,962 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:02:44,264 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:02:44,724 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:02:44,739 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:02:44,740 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:02:47,908 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-08 14:02:47,911 DEBUG   SenderThread:13864 [sender.py:send():380] send: history
+2023-12-08 14:02:47,911 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: summary_record
+2023-12-08 14:02:47,911 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 14:02:47,964 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-summary.json
+2023-12-08 14:02:48,923 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:02:49,980 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 14:02:53,948 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:02:58,964 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:02:59,737 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:02:59,747 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:02:59,747 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:03:04,030 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:03:09,055 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:03:14,079 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:03:14,270 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:03:14,747 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:03:14,755 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:03:14,755 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:03:20,020 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:03:25,047 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:03:29,753 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:03:29,753 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:03:29,754 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:03:30,955 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:03:35,982 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:03:41,005 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:03:44,280 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:03:44,755 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:03:44,755 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:03:44,755 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:03:46,945 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:03:51,963 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:03:57,003 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:03:59,600 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-08 14:03:59,601 DEBUG   SenderThread:13864 [sender.py:send():380] send: history
+2023-12-08 14:03:59,601 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: summary_record
+2023-12-08 14:03:59,601 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 14:03:59,763 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:03:59,763 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:03:59,763 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:04:00,555 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 14:04:00,555 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-summary.json
+2023-12-08 14:04:02,079 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:04:07,113 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:04:12,129 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:04:14,287 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:04:14,764 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:04:14,779 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:04:14,779 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:04:18,028 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:04:23,046 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:04:28,078 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:04:29,779 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:04:29,803 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:04:29,805 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:04:34,017 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:04:39,054 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:04:44,078 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:04:44,305 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:04:44,783 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:04:44,812 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:04:44,812 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:04:50,062 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:04:55,078 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:04:59,786 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:04:59,827 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:04:59,828 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:05:01,004 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:05:06,029 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:05:11,069 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:05:11,279 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-08 14:05:11,287 DEBUG   SenderThread:13864 [sender.py:send():380] send: history
+2023-12-08 14:05:11,287 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: summary_record
+2023-12-08 14:05:11,287 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 14:05:12,190 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 14:05:12,190 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-summary.json
+2023-12-08 14:05:14,317 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:05:14,797 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:05:14,844 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:05:14,844 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:05:16,095 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:05:21,130 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:05:26,144 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:05:29,802 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:05:29,857 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:05:29,857 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:05:32,127 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:05:37,145 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:05:42,170 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:05:44,328 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:05:44,811 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:05:44,866 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:05:44,866 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:05:48,127 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:05:53,170 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:05:58,203 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:05:59,815 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:05:59,861 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:05:59,861 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:06:04,084 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:06:09,115 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:06:14,144 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:06:14,343 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:06:14,827 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:06:14,869 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:06:14,869 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:06:19,152 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:06:24,184 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:06:29,211 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:06:29,844 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:06:29,860 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:06:29,860 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:06:34,460 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-08 14:06:34,467 DEBUG   SenderThread:13864 [sender.py:send():380] send: history
+2023-12-08 14:06:34,467 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: summary_record
+2023-12-08 14:06:34,467 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:06:34,467 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 14:06:34,831 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-summary.json
+2023-12-08 14:06:36,844 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 14:06:39,494 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:06:44,355 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:06:44,844 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:06:44,857 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:06:44,869 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:06:44,869 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:06:50,102 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:06:55,137 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:06:59,852 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:06:59,880 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:06:59,880 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:07:01,068 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:07:06,101 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:07:11,141 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:07:14,360 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:07:14,860 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:07:14,884 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:07:14,884 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:07:17,060 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:07:22,085 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:07:27,110 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:07:29,868 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:07:29,881 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:07:29,881 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:07:32,126 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:07:37,159 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:07:42,183 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:07:44,367 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:07:44,873 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:07:44,888 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:07:44,888 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:07:48,117 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:07:49,193 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-08 14:07:49,193 DEBUG   SenderThread:13864 [sender.py:send():380] send: history
+2023-12-08 14:07:49,193 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: summary_record
+2023-12-08 14:07:49,201 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 14:07:49,500 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-summary.json
+2023-12-08 14:07:50,512 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 14:07:53,230 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:07:58,274 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:07:59,884 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:07:59,899 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:07:59,899 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:08:04,159 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:08:09,184 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:08:14,209 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:08:14,379 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:08:14,899 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:08:14,900 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:08:14,901 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:08:20,124 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:08:25,143 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:08:29,908 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:08:29,908 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:08:29,908 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:08:31,141 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:08:36,167 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:08:41,198 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:08:44,383 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:08:44,904 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:08:44,904 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:08:44,911 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:08:47,125 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:08:52,165 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:08:57,206 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:08:58,178 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-08 14:08:58,180 DEBUG   SenderThread:13864 [sender.py:send():380] send: history
+2023-12-08 14:08:58,180 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: summary_record
+2023-12-08 14:08:58,180 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 14:08:59,084 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-summary.json
+2023-12-08 14:09:00,091 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 14:09:00,391 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:09:00,484 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:09:00,484 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:09:02,682 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:09:07,720 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:09:08,381 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-08 14:09:08,381 DEBUG   SenderThread:13864 [sender.py:send():380] send: metric
+2023-12-08 14:09:08,381 DEBUG   SenderThread:13864 [sender.py:send():380] send: metric
+2023-12-08 14:09:08,381 DEBUG   SenderThread:13864 [sender.py:send():380] send: history
+2023-12-08 14:09:08,381 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: summary_record
+2023-12-08 14:09:08,381 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 14:09:09,173 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-summary.json
+2023-12-08 14:09:10,183 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 14:09:13,404 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:09:14,392 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:09:15,356 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:09:15,362 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:09:15,362 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:09:18,618 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:09:23,649 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:09:28,666 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:09:29,349 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\config.yaml
+2023-12-08 14:09:30,357 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:09:30,382 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:09:30,382 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:09:34,586 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:09:39,623 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:09:44,398 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:09:45,365 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:09:45,397 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:09:45,398 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:09:45,599 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:09:50,639 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:09:55,671 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:10:00,381 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:10:00,407 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:10:00,407 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:10:01,655 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:10:06,666 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:10:11,711 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:10:14,406 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:10:15,391 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:10:15,423 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:10:15,423 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:10:16,778 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-08 14:10:16,778 DEBUG   SenderThread:13864 [sender.py:send():380] send: history
+2023-12-08 14:10:16,778 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: summary_record
+2023-12-08 14:10:16,778 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:10:16,784 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 14:10:17,739 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-summary.json
+2023-12-08 14:10:18,747 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 14:10:21,823 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:10:26,862 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:10:30,399 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:10:30,438 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:10:30,439 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:10:32,657 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:10:37,689 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:10:42,719 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:10:44,418 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:10:45,407 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:10:45,455 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:10:45,455 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:10:48,656 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:10:53,689 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:10:58,723 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:11:00,423 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:11:00,458 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:11:00,458 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:11:04,721 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:11:09,747 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:11:14,422 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:11:15,435 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:11:15,435 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:11:15,464 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:11:15,464 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:11:20,695 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:11:25,737 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:11:28,769 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-08 14:11:28,769 DEBUG   SenderThread:13864 [sender.py:send():380] send: history
+2023-12-08 14:11:28,769 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: summary_record
+2023-12-08 14:11:28,785 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 14:11:29,255 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-summary.json
+2023-12-08 14:11:30,256 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 14:11:30,803 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:11:30,912 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:11:30,912 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:11:30,988 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:11:36,147 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:11:41,180 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:11:44,440 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:11:45,881 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:11:45,881 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:11:45,885 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:11:47,047 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:11:52,063 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:11:57,102 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:12:00,879 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:12:00,879 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:12:00,888 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:12:02,137 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:12:07,180 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:12:12,205 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:12:14,446 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:12:15,897 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:12:15,897 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:12:15,897 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:12:18,155 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:12:23,205 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:12:28,245 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:12:30,904 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:12:30,905 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:12:30,905 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:12:34,114 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:12:39,153 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:12:40,758 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-08 14:12:40,759 DEBUG   SenderThread:13864 [sender.py:send():380] send: history
+2023-12-08 14:12:40,759 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: summary_record
+2023-12-08 14:12:40,761 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 14:12:40,877 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-summary.json
+2023-12-08 14:12:42,911 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 14:12:44,464 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:12:44,464 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:12:45,913 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:12:45,929 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:12:45,929 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:12:50,208 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:12:55,246 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:13:00,278 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:13:00,929 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:13:00,944 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:13:00,944 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:13:06,228 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:13:11,262 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:13:14,462 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:13:15,929 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:13:15,945 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:13:15,945 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:13:17,112 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:13:22,143 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:13:27,166 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:13:30,944 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:13:30,962 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:13:30,962 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:13:32,186 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:13:37,224 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:13:42,245 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:13:44,470 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:13:45,949 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:13:45,970 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:13:45,970 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:13:48,212 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:13:53,245 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:13:58,276 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:13:59,386 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-08 14:13:59,386 DEBUG   SenderThread:13864 [sender.py:send():380] send: history
+2023-12-08 14:13:59,386 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: summary_record
+2023-12-08 14:13:59,386 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 14:13:59,586 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-summary.json
+2023-12-08 14:14:00,590 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 14:14:01,553 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:14:01,579 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:14:01,579 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:14:03,802 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:14:08,824 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:14:13,843 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:14:14,486 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:14:15,969 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:14:15,985 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:14:15,986 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:14:19,244 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:14:24,284 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:14:29,312 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:14:30,981 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:14:31,002 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:14:31,002 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:14:35,198 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:14:40,226 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:14:44,501 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:14:45,502 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:14:45,991 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:14:45,998 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:14:45,998 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:14:51,200 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:14:56,226 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:15:01,002 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:15:01,002 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:15:01,002 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:15:01,302 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:15:06,327 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:15:11,382 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:15:13,992 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-08 14:15:13,992 DEBUG   SenderThread:13864 [sender.py:send():380] send: history
+2023-12-08 14:15:13,992 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: summary_record
+2023-12-08 14:15:13,992 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 14:15:14,205 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-summary.json
+2023-12-08 14:15:14,507 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:15:16,158 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:15:16,202 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:15:16,202 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:15:16,233 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 14:15:17,377 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:15:22,401 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:15:27,425 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:15:31,109 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:15:31,127 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:15:31,127 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:15:33,340 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:15:38,359 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:15:43,388 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:15:44,510 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:15:46,127 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:15:46,127 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:15:46,127 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:15:49,325 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:15:54,351 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:15:59,368 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:16:01,143 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:16:01,143 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:16:01,143 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:16:05,340 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:16:10,367 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:16:14,525 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:16:15,540 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:16:16,151 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:16:16,151 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:16:16,151 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:16:21,343 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:16:26,363 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:16:31,145 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:16:31,145 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:16:31,161 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:16:31,467 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:16:34,116 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-08 14:16:34,116 DEBUG   SenderThread:13864 [sender.py:send():380] send: history
+2023-12-08 14:16:34,116 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: summary_record
+2023-12-08 14:16:34,116 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 14:16:34,832 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-summary.json
+2023-12-08 14:16:36,859 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 14:16:37,131 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:16:42,182 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:16:44,525 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:16:46,150 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:16:46,150 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:16:46,171 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:16:47,324 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:16:52,359 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:16:57,383 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:17:01,151 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:17:01,151 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:17:01,182 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:17:03,325 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:17:08,356 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:17:13,379 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:17:14,539 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:17:16,167 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:17:16,167 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:17:16,198 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:17:18,382 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:17:23,408 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:17:28,449 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:17:31,166 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:17:31,166 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:17:31,199 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:17:34,339 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:17:39,366 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:17:44,406 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:17:44,541 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:17:45,728 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-08 14:17:45,739 DEBUG   SenderThread:13864 [sender.py:send():380] send: history
+2023-12-08 14:17:45,739 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: summary_record
+2023-12-08 14:17:45,741 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 14:17:46,465 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:17:46,465 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:17:46,465 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:17:46,481 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 14:17:46,481 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-summary.json
+2023-12-08 14:17:49,757 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:17:54,782 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:17:59,808 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:18:01,483 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:18:01,483 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:18:01,483 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:18:05,724 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:18:10,748 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:18:14,557 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:18:16,497 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:18:16,497 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:18:16,498 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:18:16,730 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:18:21,756 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:18:26,782 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:18:31,514 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:18:31,515 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:18:31,515 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:18:32,756 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:18:37,784 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:18:42,806 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:18:44,569 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:18:46,518 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:18:46,518 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:18:46,518 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:18:48,721 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:18:53,748 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:18:58,769 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:19:00,702 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-08 14:19:00,702 DEBUG   SenderThread:13864 [sender.py:send():380] send: history
+2023-12-08 14:19:00,702 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: summary_record
+2023-12-08 14:19:00,702 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 14:19:01,100 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-summary.json
+2023-12-08 14:19:01,629 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:19:02,211 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:19:02,211 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:19:03,104 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 14:19:04,427 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:19:09,460 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:19:14,498 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:19:14,573 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:19:16,627 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:19:17,160 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:19:17,160 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:19:20,364 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:19:25,398 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:19:30,437 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:19:31,639 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:19:32,171 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:19:32,172 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:19:35,447 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:19:40,482 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:19:44,581 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:19:45,597 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:19:46,647 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:19:47,180 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:19:47,181 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:19:51,356 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:19:56,397 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:20:01,421 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:20:01,656 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:20:02,184 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:20:02,184 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:20:07,413 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:20:12,468 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:20:13,733 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-08 14:20:13,733 DEBUG   SenderThread:13864 [sender.py:send():380] send: history
+2023-12-08 14:20:13,733 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: summary_record
+2023-12-08 14:20:13,736 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 14:20:14,580 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:20:14,719 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 14:20:14,719 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-summary.json
+2023-12-08 14:20:16,656 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:20:17,205 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:20:17,205 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:20:18,413 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:20:23,454 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:20:28,469 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:20:31,659 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:20:32,221 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:20:32,222 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:20:33,483 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:20:38,520 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:20:43,554 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:20:44,596 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:20:46,661 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:20:47,229 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:20:47,229 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:20:49,446 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:20:54,467 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:20:59,504 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:21:01,663 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:21:02,244 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:21:02,245 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:21:05,488 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:21:10,509 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:21:14,603 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:21:15,604 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:21:16,679 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:21:17,252 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:21:17,252 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:21:21,526 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:21:22,734 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-08 14:21:22,737 DEBUG   SenderThread:13864 [sender.py:send():380] send: history
+2023-12-08 14:21:22,737 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: summary_record
+2023-12-08 14:21:22,738 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 14:21:23,373 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-summary.json
+2023-12-08 14:21:24,378 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 14:21:26,769 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:21:31,683 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:21:32,274 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:21:32,275 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:21:32,485 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:21:37,512 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:21:42,544 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:21:44,605 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:21:46,696 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:21:47,276 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:21:47,276 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:21:48,528 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:21:53,553 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:21:58,586 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:22:01,703 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:22:02,287 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:22:02,287 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:22:04,529 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:22:09,557 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:22:14,586 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:22:14,612 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:22:16,703 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:22:17,285 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:22:17,285 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:22:20,490 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:22:25,524 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:22:30,558 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:22:31,718 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:22:32,285 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:22:32,285 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:22:36,477 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:22:36,710 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-08 14:22:36,710 DEBUG   SenderThread:13864 [sender.py:send():380] send: history
+2023-12-08 14:22:36,710 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: summary_record
+2023-12-08 14:22:36,710 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 14:22:37,028 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-summary.json
+2023-12-08 14:22:39,050 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 14:22:41,760 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:22:44,621 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:22:46,722 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:22:47,301 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:22:47,302 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:22:47,495 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:22:52,511 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:22:55,524 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-08 14:22:55,525 DEBUG   SenderThread:13864 [sender.py:send():380] send: history
+2023-12-08 14:22:55,525 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: summary_record
+2023-12-08 14:22:55,526 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 14:22:56,190 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-summary.json
+2023-12-08 14:22:57,203 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 14:22:57,541 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:23:01,728 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:23:02,315 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:23:02,315 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:23:02,564 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:23:07,586 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:23:12,626 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:23:14,627 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:23:16,726 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:23:17,326 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:23:17,327 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:23:18,569 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:23:23,599 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:23:28,634 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:23:31,741 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:23:32,342 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:23:32,343 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:23:34,583 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:23:39,610 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:23:44,642 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:23:44,642 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:23:46,760 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:23:47,360 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:23:47,360 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:23:50,152 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-08 14:23:50,152 DEBUG   SenderThread:13864 [sender.py:send():380] send: history
+2023-12-08 14:23:50,152 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: summary_record
+2023-12-08 14:23:50,152 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:23:50,167 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 14:23:50,646 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 14:23:50,646 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-summary.json
+2023-12-08 14:23:55,212 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:24:00,233 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:24:01,751 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:24:02,385 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:24:02,386 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:24:05,598 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:24:10,624 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:24:14,643 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:24:15,651 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:24:16,759 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:24:17,380 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:24:17,380 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:24:21,626 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:24:26,651 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:24:31,688 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:24:31,774 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:24:32,384 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:24:32,384 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:24:37,558 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:24:42,598 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:24:44,651 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:24:46,784 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:24:47,399 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:24:47,399 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:24:48,575 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:24:53,604 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:24:58,635 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:24:59,634 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-08 14:24:59,679 DEBUG   SenderThread:13864 [sender.py:send():380] send: history
+2023-12-08 14:24:59,680 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: summary_record
+2023-12-08 14:24:59,680 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 14:25:00,282 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-summary.json
+2023-12-08 14:25:01,284 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 14:25:01,840 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:25:02,389 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:25:02,389 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:25:04,563 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:25:09,607 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:25:14,638 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:25:14,658 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:25:16,825 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:25:17,400 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:25:17,400 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:25:20,583 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:25:25,624 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:25:30,667 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:25:31,825 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:25:32,398 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:25:32,399 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:25:36,658 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:25:41,683 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:25:44,667 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:25:46,825 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:25:46,841 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:25:47,397 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:25:47,398 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:25:52,601 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:25:57,625 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:26:01,855 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:26:02,398 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:26:02,399 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:26:02,646 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:26:07,666 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:26:12,722 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:26:14,675 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:26:16,858 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:26:17,406 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:26:17,406 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:26:18,029 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-08 14:26:18,029 DEBUG   SenderThread:13864 [sender.py:send():380] send: history
+2023-12-08 14:26:18,029 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: summary_record
+2023-12-08 14:26:18,029 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:26:18,029 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 14:26:18,935 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-summary.json
+2023-12-08 14:26:20,950 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 14:26:23,074 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:26:28,113 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:26:31,870 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:26:32,423 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:26:32,424 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:26:33,640 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:26:38,666 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:26:43,699 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:26:44,682 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:26:46,881 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:26:47,438 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:26:47,439 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:26:49,699 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:26:54,737 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:26:59,757 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:27:01,886 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:27:02,448 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:27:02,448 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:27:05,689 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:27:10,706 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:27:14,690 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:27:16,698 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:27:16,898 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:27:17,448 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:27:17,448 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:27:21,722 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:27:26,764 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:27:31,780 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:27:31,913 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:27:32,451 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:27:32,451 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:27:32,739 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-08 14:27:32,740 DEBUG   SenderThread:13864 [sender.py:send():380] send: history
+2023-12-08 14:27:32,740 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: summary_record
+2023-12-08 14:27:32,741 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 14:27:33,563 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-summary.json
+2023-12-08 14:27:34,584 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 14:27:37,771 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:27:42,805 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:27:44,697 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:27:46,922 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:27:47,481 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:27:47,481 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:27:48,735 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:27:53,756 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:27:58,789 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:28:01,925 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:28:02,506 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:28:02,506 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:28:04,788 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:28:09,812 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:28:14,705 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:28:15,721 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:28:16,937 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:28:17,521 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:28:17,522 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:28:20,764 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:28:25,805 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:28:30,837 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:28:31,954 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:28:32,537 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:28:32,537 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:28:36,736 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:28:41,763 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:28:44,711 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:28:46,946 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:28:46,962 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:28:47,554 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:28:47,554 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:28:49,521 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-08 14:28:49,521 DEBUG   SenderThread:13864 [sender.py:send():380] send: history
+2023-12-08 14:28:49,521 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: summary_record
+2023-12-08 14:28:49,532 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 14:28:50,166 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-summary.json
+2023-12-08 14:28:51,170 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 14:28:52,559 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:28:57,588 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:29:01,963 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:29:02,564 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:29:02,564 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:29:02,744 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:29:07,759 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:29:12,805 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:29:14,713 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:29:16,977 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:29:17,579 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:29:17,579 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:29:18,804 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:29:23,829 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:29:28,863 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:29:31,995 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:29:32,594 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:29:32,595 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:29:34,763 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:29:39,804 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:29:44,729 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:29:45,745 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:29:47,005 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:29:47,602 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:29:47,603 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:29:50,846 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:29:55,870 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:30:00,917 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:30:02,013 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:30:02,599 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:30:02,599 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:30:06,897 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:30:07,518 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-08 14:30:07,518 DEBUG   SenderThread:13864 [sender.py:send():380] send: history
+2023-12-08 14:30:07,518 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: summary_record
+2023-12-08 14:30:07,518 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 14:30:07,804 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-summary.json
+2023-12-08 14:30:08,816 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 14:30:12,557 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:30:14,735 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:30:17,021 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:30:17,611 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:30:17,611 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:30:17,789 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:30:22,828 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:30:27,862 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:30:32,027 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:30:32,627 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:30:32,628 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:30:33,829 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:30:38,872 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:30:43,903 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:30:44,744 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:30:47,043 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:30:47,644 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:30:47,645 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:30:49,801 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:30:54,843 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:30:59,869 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:31:02,045 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:31:02,653 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:31:02,653 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:31:05,844 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:31:10,861 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:31:14,748 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:31:16,761 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:31:17,050 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:31:17,661 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:31:17,661 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:31:21,934 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:31:23,973 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-08 14:31:23,973 DEBUG   SenderThread:13864 [sender.py:send():380] send: history
+2023-12-08 14:31:23,973 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: summary_record
+2023-12-08 14:31:23,973 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 14:31:24,475 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-summary.json
+2023-12-08 14:31:25,483 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 14:31:26,993 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:31:32,009 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:31:32,059 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:31:32,667 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:31:32,667 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:31:37,881 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:31:42,901 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:31:44,756 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:31:47,069 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:31:47,686 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:31:47,686 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:31:47,923 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:31:52,952 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:31:57,983 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:32:02,093 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:32:02,700 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:32:02,701 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:32:03,899 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:32:08,910 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:32:13,942 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:32:14,771 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:32:17,101 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:32:17,710 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:32:17,710 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:32:19,900 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:32:24,930 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:32:29,968 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:32:32,110 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:32:32,721 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:32:32,721 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:32:34,984 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:32:40,037 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:32:42,551 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-08 14:32:42,567 DEBUG   SenderThread:13864 [sender.py:send():380] send: history
+2023-12-08 14:32:42,567 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: summary_record
+2023-12-08 14:32:42,567 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 14:32:43,068 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-summary.json
+2023-12-08 14:32:44,771 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:32:45,084 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 14:32:45,284 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-08 14:32:45,284 DEBUG   SenderThread:13864 [sender.py:send():380] send: metric
+2023-12-08 14:32:45,300 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:32:45,303 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: pause
+2023-12-08 14:32:45,303 INFO    HandlerThread:13864 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-12-08 14:32:45,303 INFO    HandlerThread:13864 [system_monitor.py:finish():203] Stopping system monitor
+2023-12-08 14:32:45,304 DEBUG   SystemMonitor:13864 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-12-08 14:32:45,311 INFO    HandlerThread:13864 [interfaces.py:finish():202] Joined cpu monitor
+2023-12-08 14:32:45,312 DEBUG   SystemMonitor:13864 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-12-08 14:32:45,312 INFO    HandlerThread:13864 [interfaces.py:finish():202] Joined disk monitor
+2023-12-08 14:32:45,353 INFO    HandlerThread:13864 [interfaces.py:finish():202] Joined gpu monitor
+2023-12-08 14:32:45,353 INFO    HandlerThread:13864 [interfaces.py:finish():202] Joined memory monitor
+2023-12-08 14:32:45,353 INFO    HandlerThread:13864 [interfaces.py:finish():202] Joined network monitor
+2023-12-08 14:32:45,515 DEBUG   SenderThread:13864 [sender.py:send():380] send: metric
+2023-12-08 14:32:45,515 DEBUG   SenderThread:13864 [sender.py:send():380] send: metric
+2023-12-08 14:32:45,515 DEBUG   SenderThread:13864 [sender.py:send():380] send: metric
+2023-12-08 14:32:45,515 DEBUG   SenderThread:13864 [sender.py:send():380] send: metric
+2023-12-08 14:32:45,515 DEBUG   SenderThread:13864 [sender.py:send():380] send: history
+2023-12-08 14:32:45,515 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: summary_record
+2023-12-08 14:32:45,515 INFO    SenderThread:13864 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 14:32:45,515 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:32:46,093 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\wandb-summary.json
+2023-12-08 14:32:46,093 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\config.yaml
+2023-12-08 14:32:47,102 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 14:32:47,118 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:32:47,732 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:32:47,732 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:32:50,983 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:32:56,030 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:33:01,077 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:33:02,118 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:33:02,763 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:33:02,763 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:33:06,992 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:33:12,037 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:33:17,049 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:33:17,128 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:33:17,379 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\config.yaml
+2023-12-08 14:33:17,773 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:33:17,773 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:33:23,004 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:33:28,034 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:33:32,130 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:33:32,776 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:33:32,776 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:33:33,991 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:33:39,041 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:33:44,091 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:33:47,135 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:33:47,797 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:33:47,797 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:33:50,020 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:33:55,066 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:34:00,116 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:34:02,151 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:34:02,814 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:34:02,814 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:34:06,098 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:34:11,150 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:34:16,197 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:34:17,153 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:34:17,831 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:34:17,831 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:34:22,066 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:34:27,106 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:34:32,161 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:34:32,838 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:34:32,838 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:34:33,090 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:34:38,125 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:34:43,166 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:34:47,166 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:34:47,828 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:34:47,828 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:34:49,027 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:34:54,076 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:34:59,126 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:35:02,176 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:35:02,840 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:35:02,840 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:35:05,070 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:35:10,136 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:35:15,178 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:35:17,181 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:35:17,857 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:35:17,857 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:35:21,102 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:35:26,139 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:35:31,174 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:35:32,181 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:35:32,874 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:35:32,874 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:35:37,060 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:35:42,108 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:35:47,139 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:35:47,187 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:35:47,879 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:35:47,879 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:35:52,182 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:35:57,221 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:36:02,188 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:36:02,896 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:36:02,896 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:36:03,084 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:36:08,128 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:36:13,176 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:36:17,201 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:36:17,912 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:36:17,912 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:36:19,143 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:36:24,201 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:36:29,268 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:36:32,210 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:36:32,922 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:36:32,922 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:36:35,205 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:36:40,262 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:36:45,309 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:36:47,215 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:36:47,940 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:36:47,940 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:36:51,182 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:36:56,222 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:37:01,258 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:37:02,219 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:37:02,958 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:37:02,958 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:37:07,155 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:37:12,184 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:37:17,235 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:37:17,973 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:37:17,973 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:37:18,163 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:37:23,198 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:37:28,231 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:37:32,246 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:37:32,986 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:37:32,986 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:37:34,166 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:37:39,207 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:37:44,249 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:37:47,256 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:37:48,012 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:37:48,012 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:37:49,255 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:37:54,293 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:37:59,335 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:38:02,263 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:38:03,034 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:38:03,034 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:38:05,208 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:38:10,246 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:38:15,290 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:38:17,276 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:38:18,051 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:38:18,051 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:38:21,288 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:38:26,336 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:38:31,361 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:38:32,287 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:38:33,058 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:38:33,058 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:38:37,319 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:38:42,351 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:38:47,289 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:38:48,074 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:38:48,074 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:38:48,293 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:38:53,332 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:38:58,392 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:39:02,293 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:39:03,084 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:39:03,084 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:39:04,334 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:39:09,371 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:39:14,425 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:39:17,299 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:39:18,103 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:39:18,103 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:39:20,359 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:39:25,409 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:39:30,460 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:39:32,305 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:39:33,109 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:39:33,109 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:39:36,361 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:39:41,412 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:39:46,462 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:39:47,314 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:39:48,118 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:39:48,118 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:39:52,371 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:39:57,394 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:40:02,323 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:40:03,109 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:40:03,109 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:40:03,309 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:40:08,333 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:40:13,386 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:40:17,326 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:40:18,114 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:40:18,114 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:40:19,328 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:40:24,366 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:40:29,427 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:40:32,332 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:40:33,124 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:40:33,124 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:40:35,350 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:40:40,393 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:40:45,424 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:40:47,344 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:40:48,151 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:40:48,151 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:40:51,325 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:40:56,354 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:41:01,392 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:41:02,348 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:41:03,158 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:41:03,158 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:41:07,353 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:41:12,392 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:41:17,361 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:41:18,172 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:41:18,172 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:41:18,355 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:41:21,685 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: resume
+2023-12-08 14:41:21,685 INFO    HandlerThread:13864 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-12-08 14:41:21,685 INFO    HandlerThread:13864 [system_monitor.py:start():194] Starting system monitor
+2023-12-08 14:41:21,690 INFO    SystemMonitor:13864 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-12-08 14:41:21,695 INFO    SystemMonitor:13864 [interfaces.py:start():190] Started cpu monitoring
+2023-12-08 14:41:21,696 INFO    SystemMonitor:13864 [interfaces.py:start():190] Started disk monitoring
+2023-12-08 14:41:21,696 INFO    SystemMonitor:13864 [interfaces.py:start():190] Started gpu monitoring
+2023-12-08 14:41:21,705 INFO    SystemMonitor:13864 [interfaces.py:start():190] Started memory monitoring
+2023-12-08 14:41:21,711 INFO    SystemMonitor:13864 [interfaces.py:start():190] Started network monitoring
+2023-12-08 14:41:22,675 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: pause
+2023-12-08 14:41:22,675 INFO    HandlerThread:13864 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-12-08 14:41:22,675 INFO    HandlerThread:13864 [system_monitor.py:finish():203] Stopping system monitor
+2023-12-08 14:41:22,683 INFO    HandlerThread:13864 [interfaces.py:finish():202] Joined cpu monitor
+2023-12-08 14:41:22,683 DEBUG   SystemMonitor:13864 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-12-08 14:41:22,684 INFO    HandlerThread:13864 [interfaces.py:finish():202] Joined disk monitor
+2023-12-08 14:41:22,684 DEBUG   SystemMonitor:13864 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-12-08 14:41:22,688 DEBUG   SystemMonitor:13864 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-12-08 14:41:22,723 INFO    HandlerThread:13864 [interfaces.py:finish():202] Joined gpu monitor
+2023-12-08 14:41:22,724 INFO    HandlerThread:13864 [interfaces.py:finish():202] Joined memory monitor
+2023-12-08 14:41:22,724 INFO    HandlerThread:13864 [interfaces.py:finish():202] Joined network monitor
+2023-12-08 14:41:22,724 DEBUG   SenderThread:13864 [sender.py:send():380] send: stats
+2023-12-08 14:41:23,736 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:41:25,603 INFO    Thread-16 :13864 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\wandb\run-20231208_135512-qbrh10zz\files\output.log
+2023-12-08 14:41:28,768 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:41:32,368 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:41:33,172 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:41:33,172 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:41:34,430 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:41:39,490 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:41:44,528 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 14:41:47,370 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 14:41:48,179 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 14:41:48,180 DEBUG   SenderThread:13864 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 14:41:50,413 DEBUG   HandlerThread:13864 [handler.py:handle_request():146] handle_request: status_report

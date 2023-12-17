@@ -1,0 +1,130 @@
+
+You're using a T5TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+{'eval_loss': 2.5373761653900146, 'eval_runtime': 0.209, 'eval_samples_per_second': 23.928, 'eval_steps_per_second': 4.786, 'epoch': 1.0}
+{'eval_loss': 1.611716628074646, 'eval_runtime': 0.2164, 'eval_samples_per_second': 23.103, 'eval_steps_per_second': 4.621, 'epoch': 2.0}
+{'eval_loss': 1.2798974514007568, 'eval_runtime': 0.2065, 'eval_samples_per_second': 24.218, 'eval_steps_per_second': 4.844, 'epoch': 3.0}
+{'train_runtime': 37.7088, 'train_samples_per_second': 3.58, 'train_steps_per_second': 1.83, 'train_loss': 2.820955138275589, 'epoch': 3.0}
+collect results:    prediction labels   corr
+0           a      T  False
+1  Cork tiles      T  False
+2           T      T   True
+3           T      T   True
+4  i love her      T  False
+c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\transformers\generation\utils.py:1273: UserWarning: Using the model-agnostic default `max_length` (=20) to control the generation length. We recommend setting `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+You're using a T5TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+{'eval_loss': 2.7409303188323975, 'eval_runtime': 0.1951, 'eval_samples_per_second': 25.629, 'eval_steps_per_second': 5.126, 'epoch': 1.0}
+{'eval_loss': 1.8642019033432007, 'eval_runtime': 0.221, 'eval_samples_per_second': 22.62, 'eval_steps_per_second': 4.524, 'epoch': 2.0}
+{'eval_loss': 1.546657681465149, 'eval_runtime': 0.1969, 'eval_samples_per_second': 25.39, 'eval_steps_per_second': 5.078, 'epoch': 3.0}
+{'train_runtime': 19.4888, 'train_samples_per_second': 6.927, 'train_steps_per_second': 3.54, 'train_loss': 2.7482102988422783, 'epoch': 3.0}
+c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\transformers\generation\utils.py:1273: UserWarning: Using the model-agnostic default `max_length` (=20) to control the generation length. We recommend setting `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+collect results:                                           prediction labels   corr
+0                   i will be announcing the wedding      T  False
+1                                                  T      T   True
+2                                                  T      T   True
+3                                                  T      T   True
+4  I am a huge 49ers fan so I I very excited abou...      T  False
+You're using a T5TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+{'eval_loss': 2.0672383308410645, 'eval_runtime': 0.153, 'eval_samples_per_second': 32.671, 'eval_steps_per_second': 6.534, 'epoch': 1.0}
+{'eval_loss': 1.1581757068634033, 'eval_runtime': 0.1629, 'eval_samples_per_second': 30.694, 'eval_steps_per_second': 6.139, 'epoch': 2.0}
+{'eval_loss': 0.8450724482536316, 'eval_runtime': 0.2644, 'eval_samples_per_second': 18.911, 'eval_steps_per_second': 3.782, 'epoch': 3.0}
+{'train_runtime': 19.9359, 'train_samples_per_second': 6.772, 'train_steps_per_second': 3.461, 'train_loss': 2.815945169200068, 'epoch': 3.0}
+collect results:       prediction labels   corr
+0  Cannock Chase      T  False
+1              T      T   True
+2              T      T   True
+3              T      T   True
+4              T      T   True
+c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\transformers\generation\utils.py:1273: UserWarning: Using the model-agnostic default `max_length` (=20) to control the generation length. We recommend setting `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+You're using a T5TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+{'eval_loss': 2.756089687347412, 'eval_runtime': 0.225, 'eval_samples_per_second': 22.225, 'eval_steps_per_second': 4.445, 'epoch': 1.0}
+{'eval_loss': 1.7565072774887085, 'eval_runtime': 0.2413, 'eval_samples_per_second': 20.723, 'eval_steps_per_second': 4.145, 'epoch': 2.0}
+{'eval_loss': 1.4313150644302368, 'eval_runtime': 0.2386, 'eval_samples_per_second': 20.959, 'eval_steps_per_second': 4.192, 'epoch': 3.0}
+{'train_runtime': 19.2925, 'train_samples_per_second': 6.998, 'train_steps_per_second': 3.577, 'train_loss': 2.8586978635926177, 'epoch': 3.0}
+c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\transformers\generation\utils.py:1273: UserWarning: Using the model-agnostic default `max_length` (=20) to control the generation length. We recommend setting `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+collect results:                                           prediction labels   corr
+0                   A dog is sitting for her parents      T  False
+1  We will take our dogs, by car, to a local car ...      T  False
+2                      i think it will be a good day      T  False
+3                                            Massage      T  False
+4                                            Camping      T  False
+You're using a T5TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+{'eval_loss': 2.823840856552124, 'eval_runtime': 0.1835, 'eval_samples_per_second': 27.254, 'eval_steps_per_second': 5.451, 'epoch': 1.0}
+{'eval_loss': 1.8687636852264404, 'eval_runtime': 0.1811, 'eval_samples_per_second': 27.61, 'eval_steps_per_second': 5.522, 'epoch': 2.0}
+{'eval_loss': 1.5392175912857056, 'eval_runtime': 0.252, 'eval_samples_per_second': 19.841, 'eval_steps_per_second': 3.968, 'epoch': 3.0}
+{'train_runtime': 19.5129, 'train_samples_per_second': 6.918, 'train_steps_per_second': 3.536, 'train_loss': 2.7320282424705615, 'epoch': 3.0}
+c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\transformers\generation\utils.py:1273: UserWarning: Using the model-agnostic default `max_length` (=20) to control the generation length. We recommend setting `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+collect results:                                           prediction labels   corr
+0                                             Friday      T  False
+1                                        AMC Holiday      T  False
+2  I am a collector of antiques and collectables ...      T  False
+3  We will travel to Vermont and camp at a lake. ...      T  False
+4                                    i go to the gym      T  False
+You're using a T5TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+{'eval_loss': 2.3292407989501953, 'eval_runtime': 0.3139, 'eval_samples_per_second': 15.929, 'eval_steps_per_second': 3.186, 'epoch': 1.0}
+{'eval_loss': 1.4806705713272095, 'eval_runtime': 0.3319, 'eval_samples_per_second': 15.066, 'eval_steps_per_second': 3.013, 'epoch': 2.0}
+{'eval_loss': 1.1987566947937012, 'eval_runtime': 0.306, 'eval_samples_per_second': 16.341, 'eval_steps_per_second': 3.268, 'epoch': 3.0}
+{'train_runtime': 20.878, 'train_samples_per_second': 6.466, 'train_steps_per_second': 3.305, 'train_loss': 2.655124166737432, 'epoch': 3.0}
+collect results:         prediction labels   corr
+0             Kate      T  False
+1  I love to paint      T  False
+2             Liam      T  False
+3                T      T   True
+4                T      T   True
+c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\transformers\generation\utils.py:1273: UserWarning: Using the model-agnostic default `max_length` (=20) to control the generation length. We recommend setting `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+You're using a T5TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+{'eval_loss': 2.355736255645752, 'eval_runtime': 0.3336, 'eval_samples_per_second': 14.989, 'eval_steps_per_second': 2.998, 'epoch': 1.0}
+{'eval_loss': 1.5124402046203613, 'eval_runtime': 0.1695, 'eval_samples_per_second': 29.502, 'eval_steps_per_second': 5.9, 'epoch': 2.0}
+{'eval_loss': 1.2000850439071655, 'eval_runtime': 0.1677, 'eval_samples_per_second': 29.818, 'eval_steps_per_second': 5.964, 'epoch': 3.0}
+{'train_runtime': 22.796, 'train_samples_per_second': 5.922, 'train_steps_per_second': 3.027, 'train_loss': 2.783791362375453, 'epoch': 3.0}
+collect results:   prediction labels   corr
+0          T      T   True
+1      Lunch      T  False
+2          T      T   True
+3          T      T   True
+4          B      T  False
+c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\transformers\generation\utils.py:1273: UserWarning: Using the model-agnostic default `max_length` (=20) to control the generation length. We recommend setting `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+You're using a T5TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+{'eval_loss': 2.6145505905151367, 'eval_runtime': 0.4412, 'eval_samples_per_second': 11.333, 'eval_steps_per_second': 2.267, 'epoch': 1.0}
+{'eval_loss': 1.8845754861831665, 'eval_runtime': 0.5159, 'eval_samples_per_second': 9.693, 'eval_steps_per_second': 1.939, 'epoch': 2.0}
+{'eval_loss': 1.633154273033142, 'eval_runtime': 0.5706, 'eval_samples_per_second': 8.763, 'eval_steps_per_second': 1.753, 'epoch': 3.0}
+{'train_runtime': 44.676, 'train_samples_per_second': 3.022, 'train_steps_per_second': 1.544, 'train_loss': 2.699676513671875, 'epoch': 3.0}
+c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\transformers\generation\utils.py:1273: UserWarning: Using the model-agnostic default `max_length` (=20) to control the generation length. We recommend setting `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+collect results:                                           prediction labels   corr
+0                                       South London      T  False
+1  i'm meeting up in Manchester, close to where w...      T  False
+2  i will take my son and daughter to the park wh...      T  False
+3  It s lesiure activity that I try to do every w...      T  False
+4                                            Candice      T  False
+You're using a T5TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+{'eval_loss': 2.539167881011963, 'eval_runtime': 0.5132, 'eval_samples_per_second': 9.743, 'eval_steps_per_second': 1.949, 'epoch': 1.0}
+{'eval_loss': 1.7172622680664062, 'eval_runtime': 0.4918, 'eval_samples_per_second': 10.167, 'eval_steps_per_second': 2.033, 'epoch': 2.0}
+c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\transformers\generation\utils.py:1273: UserWarning: Using the model-agnostic default `max_length` (=20) to control the generation length. We recommend setting `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+{'eval_loss': 1.4360121488571167, 'eval_runtime': 0.5008, 'eval_samples_per_second': 9.985, 'eval_steps_per_second': 1.997, 'epoch': 3.0}
+{'train_runtime': 43.1637, 'train_samples_per_second': 3.128, 'train_steps_per_second': 1.599, 'train_loss': 2.708640720533288, 'epoch': 3.0}
+collect results:       prediction labels   corr
+0  i love to eat      T  False
+1              T      T   True
+2          Quilt      T  False
+3              T      T   True
+4              i      T  False
+You're using a T5TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+{'eval_loss': 2.5886635780334473, 'eval_runtime': 0.4687, 'eval_samples_per_second': 10.667, 'eval_steps_per_second': 2.133, 'epoch': 1.0}
+{'eval_loss': 1.6225488185882568, 'eval_runtime': 0.4608, 'eval_samples_per_second': 10.851, 'eval_steps_per_second': 2.17, 'epoch': 2.0}
+{'eval_loss': 1.3234918117523193, 'eval_runtime': 0.4729, 'eval_samples_per_second': 10.574, 'eval_steps_per_second': 2.115, 'epoch': 3.0}
+{'train_runtime': 37.869, 'train_samples_per_second': 3.565, 'train_steps_per_second': 1.822, 'train_loss': 2.73065649944803, 'epoch': 3.0}
+c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\transformers\generation\utils.py:1273: UserWarning: Using the model-agnostic default `max_length` (=20) to control the generation length. We recommend setting `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+collect results:                                           prediction labels   corr
+0                                        Waterbabies      T  False
+1  The band is a group of musicians whose music i...      T  False
+2                                            Chinese      T  False
+3                                               Kian      T  False

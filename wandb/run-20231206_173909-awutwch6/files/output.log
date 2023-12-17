@@ -1,0 +1,32 @@
+
+  0%|        | 0/120 [00:00<?, ?it/s]You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+
+
+
+
+  4%| | 5/120 [00:11<04:20,  2.26s/itTraceback (most recent call last):
+  File "c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\main.py", line 105, in <module>
+    trainer.train()
+  File "c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\transformers\trainer.py", line 1555, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\transformers\trainer.py", line 1910, in _inner_training_loop
+    self.optimizer.step()
+  File "c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\accelerate\optimizer.py", line 145, in step
+    self.optimizer.step(closure)
+  File "c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\torch\optim\lr_scheduler.py", line 68, in wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\torch\optim\optimizer.py", line 373, in wrapper
+    out = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\torch\optim\optimizer.py", line 76, in _use_grad
+    ret = func(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\torch\optim\adamw.py", line 184, in step
+    adamw(
+  File "c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\torch\optim\adamw.py", line 335, in adamw
+    func(
+  File "c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\torch\optim\adamw.py", line 412, in _single_tensor_adamw
+    exp_avg.lerp_(grad, 1 - beta1)
+KeyboardInterrupt

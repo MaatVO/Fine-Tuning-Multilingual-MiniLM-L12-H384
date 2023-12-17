@@ -1,0 +1,154 @@
+  0%|                                                                       | 0/120 [00:00<?, ?it/s]You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+
+
+
+
+
+
+
+
+
+
+ 10%|██████▏                                                       | 12/120 [00:30<03:13,  1.79s/it]
+
+
+
+
+
+
+
+
+
+
+
+ 20%|████████████▍                                                 | 24/120 [01:08<02:59,  1.87s/it]
+
+
+
+
+
+
+
+
+
+
+
+ 30%|██████████████████▌                                           | 36/120 [01:47<03:26,  2.46s/it]
+
+
+
+
+
+
+
+
+
+ 40%|████████████████████████▊                                     | 48/120 [02:14<02:50,  2.36s/it]
+
+
+
+
+
+
+
+
+
+ 50%|███████████████████████████████                               | 60/120 [02:42<01:30,  1.51s/it]
+
+
+
+
+
+
+
+
+
+ 60%|█████████████████████████████████████▏                        | 72/120 [03:13<01:39,  2.08s/it]
+
+
+
+
+
+
+
+
+
+
+ 70%|███████████████████████████████████████████▍                  | 84/120 [03:42<00:57,  1.61s/it]
+
+
+
+
+
+
+
+
+
+
+ 80%|█████████████████████████████████████████████████▌            | 96/120 [04:10<00:37,  1.55s/it]
+
+
+
+
+
+
+
+
+
+
+ 90%|██████████████████████████████████████████████████████▉      | 108/120 [04:43<00:23,  1.98s/it]
+
+
+
+
+
+
+
+
+100%|█████████████████████████████████████████████████████████████| 120/120 [05:10<00:00,  1.70s/it]
+100%|█████████████████████████████████████████████████████████████| 120/120 [05:12<00:00,  2.60s/it]
+Traceback (most recent call last):
+  File "c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\main.py", line 121, in <module>
+    outputs = model(**inputs)
+              ^^^^^^^^^^^^^^^
+  File "c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\torch\nn\modules\module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\torch\nn\modules\module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\transformers\models\bert\modeling_bert.py", line 1564, in forward
+    outputs = self.bert(
+              ^^^^^^^^^^
+  File "c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\torch\nn\modules\module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\torch\nn\modules\module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\transformers\models\bert\modeling_bert.py", line 1006, in forward
+    embedding_output = self.embeddings(
+                       ^^^^^^^^^^^^^^^^
+  File "c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\torch\nn\modules\module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\torch\nn\modules\module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\transformers\models\bert\modeling_bert.py", line 232, in forward
+    inputs_embeds = self.word_embeddings(input_ids)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\torch\nn\modules\module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\torch\nn\modules\module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\torch\nn\modules\sparse.py", line 162, in forward
+    return F.embedding(
+           ^^^^^^^^^^^^
+  File "c:\Users\matti\Documents\GitHub\Fine_tuning_llm_project\.env\Lib\site-packages\torch\nn\functional.py", line 2233, in embedding
+    return torch.embedding(weight, input, padding_idx, scale_grad_by_freq, sparse)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
+{'train_runtime': 316.5513, 'train_samples_per_second': 5.686, 'train_steps_per_second': 0.379, 'train_loss': 0.6455763498942058, 'epoch': 10.0}
